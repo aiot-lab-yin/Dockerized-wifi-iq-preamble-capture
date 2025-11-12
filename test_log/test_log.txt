@@ -1,0 +1,680 @@
+zhu01@Zhu-lab001:~$ ls]
+コマンド 'ls]' が見つかりません。もしかして:
+  command 'lsd' from snap lsd (0.16.0)
+  command 'lsh' from deb lsh-client (2.1-13)
+  command 'ls' from deb coreutils (8.32-4.1ubuntu1.2)
+  command 'lsc' from deb livescript (1.6.1+dfsg-2)
+  command 'lsm' from deb lsm (1.0.4-2)
+  command 'lsw' from deb suckless-tools (46-1)
+他のバージョンについては 'snap info <snapname>' を確認してください。
+zhu01@Zhu-lab001:~$ ls
+Desktop    Music     Templates  dockerDevlop  miniforge3   thinclient_drives
+Documents  Pictures  Videos     fmRX2.grc     output1.csv  workarea
+Downloads  Public    data       fmRx2.py      snap         workspace
+zhu01@Zhu-lab001:~$ cd dockerDevlop/
+zhu01@Zhu-lab001:~/dockerDevlop$ cd wifi-iq-capture-usb-hotplugable-test/
+zhu01@Zhu-lab001:~/dockerDevlop/wifi-iq-capture-usb-hotplugable-test$ ls
+wifi-iq-capture-usb-hotplugable
+zhu01@Zhu-lab001:~/dockerDevlop/wifi-iq-capture-usb-hotplugable-test$ cd wifi-iq-capture-usb-hotplugable/^C
+zhu01@Zhu-lab001:~/dockerDevlop/wifi-iq-capture-usb-hotplugable-test$ 
+zhu01@Zhu-lab001:~/dockerDevlop/wifi-iq-capture-usb-hotplugable-test$ 
+zhu01@Zhu-lab001:~/dockerDevlop/wifi-iq-capture-usb-hotplugable-test$ mv wifi-iq-capture-usb-hotplugable/ ../
+zhu01@Zhu-lab001:~/dockerDevlop/wifi-iq-capture-usb-hotplugable-test$ ls
+zhu01@Zhu-lab001:~/dockerDevlop/wifi-iq-capture-usb-hotplugable-test$ cd 
+zhu01@Zhu-lab001:~$ cd dockerDevlop/
+zhu01@Zhu-lab001:~/dockerDevlop$ ls
+wifi-iq-capture-usb-hotplugable       wifi-iq-capture-usb-hotplugable-test.zip
+wifi-iq-capture-usb-hotplugable-test
+zhu01@Zhu-lab001:~/dockerDevlop$ cd wifi-iq-capture-usb-hotplugable-test/
+zhu01@Zhu-lab001:~/dockerDevlop/wifi-iq-capture-usb-hotplugable-test$ ls
+zhu01@Zhu-lab001:~/dockerDevlop/wifi-iq-capture-usb-hotplugable-test$ cd ..
+zhu01@Zhu-lab001:~/dockerDevlop$ rm -rf wifi-iq-capture-usb-hotplugable
+zhu01@Zhu-lab001:~/dockerDevlop$ rm -rf wifi-iq-capture-usb-hotplugable-test
+zhu01@Zhu-lab001:~/dockerDevlop$ ls
+wifi-iq-capture-usb-hotplugable-test.zip
+zhu01@Zhu-lab001:~/dockerDevlop$ unzip wifi-iq-capture-usb-hotplugable-test.zip 
+Archive:  wifi-iq-capture-usb-hotplugable-test.zip
+   creating: wifi-iq-capture-usb-hotplugable/
+  inflating: __MACOSX/._wifi-iq-capture-usb-hotplugable  
+  inflating: wifi-iq-capture-usb-hotplugable/.start_capture.sh.swp  
+  inflating: __MACOSX/wifi-iq-capture-usb-hotplugable/._.start_capture.sh.swp  
+   creating: wifi-iq-capture-usb-hotplugable/udev/
+  inflating: __MACOSX/wifi-iq-capture-usb-hotplugable/._udev  
+  inflating: wifi-iq-capture-usb-hotplugable/.DS_Store  
+  inflating: __MACOSX/wifi-iq-capture-usb-hotplugable/._.DS_Store  
+  inflating: wifi-iq-capture-usb-hotplugable/LICENSE  
+  inflating: __MACOSX/wifi-iq-capture-usb-hotplugable/._LICENSE  
+  inflating: wifi-iq-capture-usb-hotplugable/CHANGELOG.md  
+  inflating: __MACOSX/wifi-iq-capture-usb-hotplugable/._CHANGELOG.md  
+  inflating: wifi-iq-capture-usb-hotplugable/Dockerfile  
+  inflating: __MACOSX/wifi-iq-capture-usb-hotplugable/._Dockerfile  
+  inflating: wifi-iq-capture-usb-hotplugable/init_usrp_via_container.sh  
+  inflating: __MACOSX/wifi-iq-capture-usb-hotplugable/._init_usrp_via_container.sh  
+  inflating: wifi-iq-capture-usb-hotplugable/README.md  
+  inflating: __MACOSX/wifi-iq-capture-usb-hotplugable/._README.md  
+  inflating: wifi-iq-capture-usb-hotplugable/test_task.md  
+  inflating: __MACOSX/wifi-iq-capture-usb-hotplugable/._test_task.md  
+  inflating: wifi-iq-capture-usb-hotplugable/.gitignore  
+  inflating: __MACOSX/wifi-iq-capture-usb-hotplugable/._.gitignore  
+  inflating: wifi-iq-capture-usb-hotplugable/check_usrp_permission.py  
+  inflating: __MACOSX/wifi-iq-capture-usb-hotplugable/._check_usrp_permission.py  
+  inflating: wifi-iq-capture-usb-hotplugable/wifi_rx.grc  
+  inflating: __MACOSX/wifi-iq-capture-usb-hotplugable/._wifi_rx.grc  
+  inflating: wifi-iq-capture-usb-hotplugable/gnuradio_prefs.conf  
+  inflating: __MACOSX/wifi-iq-capture-usb-hotplugable/._gnuradio_prefs.conf  
+   creating: wifi-iq-capture-usb-hotplugable/.github/
+  inflating: __MACOSX/wifi-iq-capture-usb-hotplugable/._.github  
+  inflating: wifi-iq-capture-usb-hotplugable/capture_writer.py  
+  inflating: __MACOSX/wifi-iq-capture-usb-hotplugable/._capture_writer.py  
+  inflating: wifi-iq-capture-usb-hotplugable/docker-compose.yml  
+  inflating: __MACOSX/wifi-iq-capture-usb-hotplugable/._docker-compose.yml  
+  inflating: wifi-iq-capture-usb-hotplugable/release_changelog.sh  
+  inflating: __MACOSX/wifi-iq-capture-usb-hotplugable/._release_changelog.sh  
+   creating: wifi-iq-capture-usb-hotplugable/data/
+  inflating: __MACOSX/wifi-iq-capture-usb-hotplugable/._data  
+  inflating: wifi-iq-capture-usb-hotplugable/start_capture.sh  
+  inflating: __MACOSX/wifi-iq-capture-usb-hotplugable/._start_capture.sh  
+  inflating: wifi-iq-capture-usb-hotplugable/gitignore  
+  inflating: __MACOSX/wifi-iq-capture-usb-hotplugable/._gitignore  
+  inflating: wifi-iq-capture-usb-hotplugable/udev/90-usrp.rules  
+  inflating: __MACOSX/wifi-iq-capture-usb-hotplugable/udev/._90-usrp.rules  
+   creating: wifi-iq-capture-usb-hotplugable/.github/workflows/
+  inflating: __MACOSX/wifi-iq-capture-usb-hotplugable/.github/._workflows  
+  inflating: wifi-iq-capture-usb-hotplugable/data/iq_capture.py  
+  inflating: __MACOSX/wifi-iq-capture-usb-hotplugable/data/._iq_capture.py  
+  inflating: wifi-iq-capture-usb-hotplugable/.github/workflows/release-changelog.yml  
+  inflating: __MACOSX/wifi-iq-capture-usb-hotplugable/.github/workflows/._release-changelog.yml  
+zhu01@Zhu-lab001:~/dockerDevlop$ ls
+__MACOSX                         wifi-iq-capture-usb-hotplugable-test.zip
+wifi-iq-capture-usb-hotplugable
+zhu01@Zhu-lab001:~/dockerDevlop$ cd wifi-iq-capture-usb-hotplugable/
+zhu01@Zhu-lab001:~/dockerDevlop/wifi-iq-capture-usb-hotplugable$ ls
+CHANGELOG.md              data                        start_capture.sh
+Dockerfile                docker-compose.yml          test_task.md
+LICENSE                   gitignore                   udev
+README.md                 gnuradio_prefs.conf         wifi_rx.grc
+capture_writer.py         init_usrp_via_container.sh
+check_usrp_permission.py  release_changelog.sh
+zhu01@Zhu-lab001:~/dockerDevlop/wifi-iq-capture-usb-hotplugable$ cd ..
+zhu01@Zhu-lab001:~/dockerDevlop$ rm -rf __MACOSX/
+zhu01@Zhu-lab001:~/dockerDevlop$ ls
+wifi-iq-capture-usb-hotplugable  wifi-iq-capture-usb-hotplugable-test.zip
+zhu01@Zhu-lab001:~/dockerDevlop$ cd wifi-iq-capture-usb-hotplugable/
+zhu01@Zhu-lab001:~/dockerDevlop/wifi-iq-capture-usb-hotplugable$ ls
+CHANGELOG.md              data                        start_capture.sh
+Dockerfile                docker-compose.yml          test_task.md
+LICENSE                   gitignore                   udev
+README.md                 gnuradio_prefs.conf         wifi_rx.grc
+capture_writer.py         init_usrp_via_container.sh
+check_usrp_permission.py  release_changelog.sh
+zhu01@Zhu-lab001:~/dockerDevlop/wifi-iq-capture-usb-hotplugable$ echo $SHELL
+/bin/bash
+zhu01@Zhu-lab001:~/dockerDevlop/wifi-iq-capture-usb-hotplugable$ ./start_capture.sh 
+[*] Enabling X11 GUI access...
+non-network local connections being added to access control list
+[*] Stopping any running containers...
+./start_capture.sh: 行 44: docker: コマンドが見つかりません
+./start_capture.sh: 行 47: docker: コマンドが見つかりません
+[*] Skipping image rebuild.
+[*] Checking and initializing USRP (if needed)...
+[*] Checking for initialized USRP device... (attempt 1)
+❌ USRP not initialized. Running container to upload firmware...
+./init_usrp_via_container.sh: 行 39: docker: コマンドが見つかりません
+[*] Waiting 3 seconds for USB re-enumeration...
+[*] Checking for initialized USRP device... (attempt 2)
+❌ USRP not initialized. Running container to upload firmware...
+./init_usrp_via_container.sh: 行 39: docker: コマンドが見つかりません
+[*] Waiting 3 seconds for USB re-enumeration...
+[*] Checking for initialized USRP device... (attempt 3)
+❌ USRP not initialized. Running container to upload firmware...
+./init_usrp_via_container.sh: 行 39: docker: コマンドが見つかりません
+[*] Waiting 3 seconds for USB re-enumeration...
+❌ Failed to initialize USRP after 3 attempts.
+❌ Failed to initialize USRP. Aborting container launch.
+non-network local connections being removed from access control list
+zhu01@Zhu-lab001:~/dockerDevlop/wifi-iq-capture-usb-hotplugable$ sudo apt update
+[sudo] zhu01 のパスワード: 
+すみません、もう一度試してください。
+[sudo] zhu01 のパスワード: 
+ヒット:1 https://packages.microsoft.com/repos/code stable InRelease
+取得:3 http://security.ubuntu.com/ubuntu jammy-security InRelease [129 kB]     
+ヒット:2 https://packagecloud.io/slacktechnologies/slack/debian jessie InRelease
+ヒット:4 http://jp.archive.ubuntu.com/ubuntu jammy InRelease                   
+取得:5 http://jp.archive.ubuntu.com/ubuntu jammy-updates InRelease [128 kB]
+ヒット:6 http://jp.archive.ubuntu.com/ubuntu jammy-backports InRelease
+取得:7 http://jp.archive.ubuntu.com/ubuntu jammy-updates/main amd64 Packages [2,756 kB]
+取得:8 http://jp.archive.ubuntu.com/ubuntu jammy-updates/main i386 Packages [845 kB]
+取得:9 http://jp.archive.ubuntu.com/ubuntu jammy-updates/universe amd64 Packages [1,224 kB]
+取得:10 http://jp.archive.ubuntu.com/ubuntu jammy-updates/universe i386 Packages [779 kB]
+5,860 kB を 4秒 で取得しました (1,314 kB/s)               
+パッケージリストを読み込んでいます... 完了
+依存関係ツリーを作成しています... 完了
+状態情報を読み取っています... 完了        
+アップグレードできるパッケージが 78 個あります。表示するには 'apt list --upgradable' を実行してください。
+zhu01@Zhu-lab001:~/dockerDevlop/wifi-iq-capture-usb-hotplugable$ sudo apt install -y ca-certificates curl gnupg lsb-release
+パッケージリストを読み込んでいます... 完了
+依存関係ツリーを作成しています... 完了        
+状態情報を読み取っています... 完了        
+lsb-release はすでに最新バージョン (11.1.0ubuntu4) です。
+lsb-release は手動でインストールしたと設定されました。
+ca-certificates はすでに最新バージョン (20240203~22.04.1) です。
+ca-certificates は手動でインストールしたと設定されました。
+curl はすでに最新バージョン (7.81.0-1ubuntu1.20) です。
+curl は手動でインストールしたと設定されました。
+gnupg はすでに最新バージョン (2.2.27-3ubuntu2.4) です。
+gnupg は手動でインストールしたと設定されました。
+以下のパッケージが自動でインストールされましたが、もう必要とされていません:
+  libwpe-1.0-1 libwpebackend-fdo-1.0-1
+これを削除するには 'sudo apt autoremove' を利用してください。
+アップグレード: 0 個、新規インストール: 0 個、削除: 0 個、保留: 78 個。
+zhu01@Zhu-lab001:~/dockerDevlop/wifi-iq-capture-usb-hotplugable$ sudo mkdir -p /etc/apt/keyrings
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | \
+  sudo gpg --dearmor -o /etc/apt/keyrings/docker.gpg
+zhu01@Zhu-lab001:~/dockerDevlop/wifi-iq-capture-usb-hotplugable$ echo \
+  "deb [arch=$(dpkg --print-architecture) \
+  signed-by=/etc/apt/keyrings/docker.gpg] \
+  https://download.docker.com/linux/ubuntu \
+  $(lsb_release -cs) stable" | \
+  sudo tee /etc/apt/sources.list.d/docker.list > /dev/null
+zhu01@Zhu-lab001:~/dockerDevlop/wifi-iq-capture-usb-hotplugable$ sudo apt update 
+取得:1 https://download.docker.com/linux/ubuntu jammy InRelease [48.8 kB]
+ヒット:2 https://packages.microsoft.com/repos/code stable InRelease            
+取得:3 https://download.docker.com/linux/ubuntu jammy/stable amd64 Packages [53.5 kB]
+ヒット:5 http://security.ubuntu.com/ubuntu jammy-security InRelease            
+ヒット:6 http://jp.archive.ubuntu.com/ubuntu jammy InRelease  
+ヒット:7 http://jp.archive.ubuntu.com/ubuntu jammy-updates InRelease
+ヒット:4 https://packagecloud.io/slacktechnologies/slack/debian jessie InRelease
+ヒット:8 http://jp.archive.ubuntu.com/ubuntu jammy-backports InRelease
+102 kB を 1秒 で取得しました (98.2 kB/s)
+パッケージリストを読み込んでいます... 完了
+依存関係ツリーを作成しています... 完了
+状態情報を読み取っています... 完了        
+アップグレードできるパッケージが 78 個あります。表示するには 'apt list --upgradable' を実行してください。
+zhu01@Zhu-lab001:~/dockerDevlop/wifi-iq-capture-usb-hotplugable$ sudo apt install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
+パッケージリストを読み込んでいます... 完了
+依存関係ツリーを作成しています... 完了        
+状態情報を読み取っています... 完了        
+以下のパッケージが自動でインストールされましたが、もう必要とされていません:
+  libwpe-1.0-1 libwpebackend-fdo-1.0-1
+これを削除するには 'sudo apt autoremove' を利用してください。
+以下の追加パッケージがインストールされます:
+  docker-ce-rootless-extras libslirp0 pigz slirp4netns
+提案パッケージ:
+  cgroupfs-mount | cgroup-lite docker-model-plugin
+以下のパッケージが新たにインストールされます:
+  containerd.io docker-buildx-plugin docker-ce docker-ce-cli
+  docker-ce-rootless-extras docker-compose-plugin libslirp0 pigz slirp4netns
+アップグレード: 0 個、新規インストール: 9 個、削除: 0 個、保留: 78 個。
+103 MB のアーカイブを取得する必要があります。
+この操作後に追加で 429 MB のディスク容量が消費されます。
+取得:1 https://download.docker.com/linux/ubuntu jammy/stable amd64 containerd.io amd64 1.7.27-1 [30.5 MB]
+取得:2 http://jp.archive.ubuntu.com/ubuntu jammy/universe amd64 pigz amd64 2.6-1 [63.6 kB]
+取得:3 https://download.docker.com/linux/ubuntu jammy/stable amd64 docker-ce-cli amd64 5:28.3.2-1~ubuntu.22.04~jammy [16.5 MB]
+取得:4 http://jp.archive.ubuntu.com/ubuntu jammy/main amd64 libslirp0 amd64 4.6.1-1build1 [61.5 kB]
+取得:5 http://jp.archive.ubuntu.com/ubuntu jammy/universe amd64 slirp4netns amd64 1.0.1-2 [28.2 kB]
+取得:6 https://download.docker.com/linux/ubuntu jammy/stable amd64 docker-ce amd64 5:28.3.2-1~ubuntu.22.04~jammy [19.7 MB]
+取得:7 https://download.docker.com/linux/ubuntu jammy/stable amd64 docker-buildx-plugin amd64 0.25.0-1~ubuntu.22.04~jammy [15.6 MB]
+取得:8 https://download.docker.com/linux/ubuntu jammy/stable amd64 docker-ce-rootless-extras amd64 5:28.3.2-1~ubuntu.22.04~jammy [6,481 kB]
+取得:9 https://download.docker.com/linux/ubuntu jammy/stable amd64 docker-compose-plugin amd64 2.38.2-1~ubuntu.22.04~jammy [14.2 MB]
+103 MB を 3秒 で取得しました (35.2 MB/s)             
+以前に未選択のパッケージ containerd.io を選択しています。
+(データベースを読み込んでいます ... 現在 308714 個のファイルとディレクトリがイン
+ストールされています。)
+.../0-containerd.io_1.7.27-1_amd64.deb を展開する準備をしています ...
+containerd.io (1.7.27-1) を展開しています...
+以前に未選択のパッケージ docker-ce-cli を選択しています。
+.../1-docker-ce-cli_5%3a28.3.2-1~ubuntu.22.04~jammy_amd64.deb を展開する準備をし
+ています ...
+docker-ce-cli (5:28.3.2-1~ubuntu.22.04~jammy) を展開しています...
+以前に未選択のパッケージ docker-ce を選択しています。
+.../2-docker-ce_5%3a28.3.2-1~ubuntu.22.04~jammy_amd64.deb を展開する準備をしてい
+ます ...
+docker-ce (5:28.3.2-1~ubuntu.22.04~jammy) を展開しています...
+以前に未選択のパッケージ pigz を選択しています。
+.../3-pigz_2.6-1_amd64.deb を展開する準備をしています ...
+pigz (2.6-1) を展開しています...
+以前に未選択のパッケージ docker-buildx-plugin を選択しています。
+.../4-docker-buildx-plugin_0.25.0-1~ubuntu.22.04~jammy_amd64.deb を展開する準備
+をしています ...
+docker-buildx-plugin (0.25.0-1~ubuntu.22.04~jammy) を展開しています...
+以前に未選択のパッケージ docker-ce-rootless-extras を選択しています。
+.../5-docker-ce-rootless-extras_5%3a28.3.2-1~ubuntu.22.04~jammy_amd64.deb を展開
+する準備をしています ...
+docker-ce-rootless-extras (5:28.3.2-1~ubuntu.22.04~jammy) を展開しています...
+以前に未選択のパッケージ docker-compose-plugin を選択しています。
+.../6-docker-compose-plugin_2.38.2-1~ubuntu.22.04~jammy_amd64.deb を展開する準備
+をしています ...
+docker-compose-plugin (2.38.2-1~ubuntu.22.04~jammy) を展開しています...
+以前に未選択のパッケージ libslirp0:amd64 を選択しています。
+.../7-libslirp0_4.6.1-1build1_amd64.deb を展開する準備をしています ...
+libslirp0:amd64 (4.6.1-1build1) を展開しています...
+以前に未選択のパッケージ slirp4netns を選択しています。
+.../8-slirp4netns_1.0.1-2_amd64.deb を展開する準備をしています ...
+slirp4netns (1.0.1-2) を展開しています...
+docker-buildx-plugin (0.25.0-1~ubuntu.22.04~jammy) を設定しています ...
+containerd.io (1.7.27-1) を設定しています ...
+Created symlink /etc/systemd/system/multi-user.target.wants/containerd.service →
+ /lib/systemd/system/containerd.service.
+docker-compose-plugin (2.38.2-1~ubuntu.22.04~jammy) を設定しています ...
+docker-ce-cli (5:28.3.2-1~ubuntu.22.04~jammy) を設定しています ...
+libslirp0:amd64 (4.6.1-1build1) を設定しています ...
+pigz (2.6-1) を設定しています ...
+docker-ce-rootless-extras (5:28.3.2-1~ubuntu.22.04~jammy) を設定しています ...
+slirp4netns (1.0.1-2) を設定しています ...
+docker-ce (5:28.3.2-1~ubuntu.22.04~jammy) を設定しています ...
+Created symlink /etc/systemd/system/multi-user.target.wants/docker.service → /li
+b/systemd/system/docker.service.
+Created symlink /etc/systemd/system/sockets.target.wants/docker.socket → /lib/sy
+stemd/system/docker.socket.
+man-db (2.10.2-1) のトリガを処理しています ...
+libc-bin (2.35-0ubuntu3.10) のトリガを処理しています ...
+zhu01@Zhu-lab001:~/dockerDevlop/wifi-iq-capture-usb-hotplugable$ sudo docker --version
+Docker version 28.3.2, build 578ccf6
+zhu01@Zhu-lab001:~/dockerDevlop/wifi-iq-capture-usb-hotplugable$ docker --version
+Docker version 28.3.2, build 578ccf6
+zhu01@Zhu-lab001:~/dockerDevlop/wifi-iq-capture-usb-hotplugable$ docker --version
+Docker version 28.3.2, build 578ccf6
+zhu01@Zhu-lab001:~/dockerDevlop/wifi-iq-capture-usb-hotplugable$ groups
+zhu01 adm cdrom sudo dip plugdev lpadmin lxd sambashare wireshark
+zhu01@Zhu-lab001:~/dockerDevlop/wifi-iq-capture-usb-hotplugable$ sudo usermod -aG docker $USER
+zhu01@Zhu-lab001:~/dockerDevlop/wifi-iq-capture-usb-hotplugable$ groups
+zhu01 adm cdrom sudo dip plugdev lpadmin lxd sambashare wireshark
+zhu01@Zhu-lab001:~/dockerDevlop/wifi-iq-capture-usb-hotplugable$ newgrp docker
+zhu01@Zhu-lab001:~/dockerDevlop/wifi-iq-capture-usb-hotplugable$ groups
+docker adm cdrom sudo dip plugdev lpadmin lxd sambashare wireshark zhu01
+zhu01@Zhu-lab001:~/dockerDevlop/wifi-iq-capture-usb-hotplugable$ docker -v
+Docker version 28.3.2, build 578ccf6
+zhu01@Zhu-lab001:~/dockerDevlop/wifi-iq-capture-usb-hotplugable$ docker-compose -v
+コマンド 'docker-compose' が見つかりません。次の方法でインストールできます:
+sudo snap install docker          # version 28.1.1+1, or
+sudo apt  install docker-compose  # version 1.29.2-1
+他のバージョンについては 'snap info docker' を確認してください。
+zhu01@Zhu-lab001:~/dockerDevlop/wifi-iq-capture-usb-hotplugable$ docker compose version
+Docker Compose version v2.38.2
+zhu01@Zhu-lab001:~/dockerDevlop/wifi-iq-capture-usb-hotplugable$ docker-compose -v
+コマンド 'docker-compose' が見つかりません。次の方法でインストールできます:
+sudo snap install docker          # version 28.1.1+1, or
+sudo apt  install docker-compose  # version 1.29.2-1
+他のバージョンについては 'snap info docker' を確認してください。
+zhu01@Zhu-lab001:~/dockerDevlop/wifi-iq-capture-usb-hotplugable$ lsusb \| grep Ettus
+Usage: lsusb [options]...
+List USB devices
+  -v, --verbose
+      Increase verbosity (show descriptors)
+  -s [[bus]:][devnum]
+      Show only devices with specified device and/or
+      bus numbers (in decimal)
+  -d vendor:[product]
+      Show only devices with the specified vendor and
+      product ID numbers (in hexadecimal)
+  -D device
+      Selects which device lsusb will examine
+  -t, --tree
+      Dump the physical USB device hierarchy as a tree
+  -V, --version
+      Show version of program
+  -h, --help
+      Show usage and help
+zhu01@Zhu-lab001:~/dockerDevlop/wifi-iq-capture-usb-hotplugable$ lsusb | grep Ettus
+zhu01@Zhu-lab001:~/dockerDevlop/wifi-iq-capture-usb-hotplugable$ lsusb
+Bus 004 Device 004: ID 0bda:0411 Realtek Semiconductor Corp. Hub
+Bus 004 Device 003: ID 0bda:0411 Realtek Semiconductor Corp. Hub
+Bus 004 Device 002: ID 2109:0822 VIA Labs, Inc. USB3.1 Hub             
+Bus 004 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+Bus 003 Device 006: ID 001f:0b21 Generic USB Audio
+Bus 003 Device 009: ID 046d:c534 Logitech, Inc. Unifying Receiver
+Bus 003 Device 008: ID 0bda:5411 Realtek Semiconductor Corp. RTS5411 Hub
+Bus 003 Device 007: ID 1a86:e010 QinHeng Electronics HKS0402A2U
+Bus 003 Device 005: ID 4348:7048 WinChipHead CH545
+Bus 003 Device 004: ID 0bda:5411 Realtek Semiconductor Corp. RTS5411 Hub
+Bus 003 Device 002: ID 2109:2822 VIA Labs, Inc. USB2.0 Hub             
+Bus 003 Device 003: ID 0e8d:0608 MediaTek Inc. Wireless_Device
+Bus 003 Device 010: ID 3923:7814 National Instruments Corp. WestBridge 
+Bus 003 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+zhu01@Zhu-lab001:~/dockerDevlop/wifi-iq-capture-usb-hotplugable$ ls /etc/udev/rules.d/
+53-radioconda-hackrf.rules               70-snap.snapd.rules
+70-snap.firefox.rules                    rtl-sdr.rules
+70-snap.snap-store.rules                 uhd-usrp.rules
+70-snap.snapd-desktop-integration.rules
+zhu01@Zhu-lab001:~/dockerDevlop/wifi-iq-capture-usb-hotplugable$ ls
+CHANGELOG.md              data                        start_capture.sh
+Dockerfile                docker-compose.yml          test_task.md
+LICENSE                   gitignore                   udev
+README.md                 gnuradio_prefs.conf         wifi_rx.grc
+capture_writer.py         init_usrp_via_container.sh
+check_usrp_permission.py  release_changelog.sh
+zhu01@Zhu-lab001:~/dockerDevlop/wifi-iq-capture-usb-hotplugable$ sudo cp udev/90-usrp.rules /etc/udev/rules.d/
+zhu01@Zhu-lab001:~/dockerDevlop/wifi-iq-capture-usb-hotplugable$ ls
+CHANGELOG.md              data                        start_capture.sh
+Dockerfile                docker-compose.yml          test_task.md
+LICENSE                   gitignore                   udev
+README.md                 gnuradio_prefs.conf         wifi_rx.grc
+capture_writer.py         init_usrp_via_container.sh
+check_usrp_permission.py  release_changelog.sh
+zhu01@Zhu-lab001:~/dockerDevlop/wifi-iq-capture-usb-hotplugable$ ls /etc/udev/rules.d/
+53-radioconda-hackrf.rules               70-snap.snapd.rules
+70-snap.firefox.rules                    90-usrp.rules
+70-snap.snap-store.rules                 rtl-sdr.rules
+70-snap.snapd-desktop-integration.rules  uhd-usrp.rules
+zhu01@Zhu-lab001:~/dockerDevlop/wifi-iq-capture-usb-hotplugable$ sudo udevadm control --reload-rules && sudo udevadm trigger
+zhu01@Zhu-lab001:~/dockerDevlop/wifi-iq-capture-usb-hotplugable$ lsusb | grep Ettus
+zhu01@Zhu-lab001:~/dockerDevlop/wifi-iq-capture-usb-hotplugable$ lsusb | grep Ettus
+zhu01@Zhu-lab001:~/dockerDevlop/wifi-iq-capture-usb-hotplugable$ lsusb | grep Ettus
+zhu01@Zhu-lab001:~/dockerDevlop/wifi-iq-capture-usb-hotplugable$ lsusb
+Bus 004 Device 004: ID 0bda:0411 Realtek Semiconductor Corp. Hub
+Bus 004 Device 003: ID 0bda:0411 Realtek Semiconductor Corp. Hub
+Bus 004 Device 002: ID 2109:0822 VIA Labs, Inc. USB3.1 Hub             
+Bus 004 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+Bus 003 Device 006: ID 001f:0b21 Generic USB Audio
+Bus 003 Device 009: ID 046d:c534 Logitech, Inc. Unifying Receiver
+Bus 003 Device 008: ID 0bda:5411 Realtek Semiconductor Corp. RTS5411 Hub
+Bus 003 Device 007: ID 1a86:e010 QinHeng Electronics HKS0402A2U
+Bus 003 Device 005: ID 4348:7048 WinChipHead CH545
+Bus 003 Device 004: ID 0bda:5411 Realtek Semiconductor Corp. RTS5411 Hub
+Bus 003 Device 002: ID 2109:2822 VIA Labs, Inc. USB2.0 Hub             
+Bus 003 Device 003: ID 0e8d:0608 MediaTek Inc. Wireless_Device
+Bus 003 Device 011: ID 3923:7814 National Instruments Corp. WestBridge 
+Bus 003 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+zhu01@Zhu-lab001:~/dockerDevlop/wifi-iq-capture-usb-hotplugable$ lsusb
+Bus 004 Device 004: ID 0bda:0411 Realtek Semiconductor Corp. Hub
+Bus 004 Device 003: ID 0bda:0411 Realtek Semiconductor Corp. Hub
+Bus 004 Device 002: ID 2109:0822 VIA Labs, Inc. USB3.1 Hub             
+Bus 004 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+Bus 003 Device 006: ID 001f:0b21 Generic USB Audio
+Bus 003 Device 009: ID 046d:c534 Logitech, Inc. Unifying Receiver
+Bus 003 Device 008: ID 0bda:5411 Realtek Semiconductor Corp. RTS5411 Hub
+Bus 003 Device 007: ID 1a86:e010 QinHeng Electronics HKS0402A2U
+Bus 003 Device 005: ID 4348:7048 WinChipHead CH545
+Bus 003 Device 004: ID 0bda:5411 Realtek Semiconductor Corp. RTS5411 Hub
+Bus 003 Device 002: ID 2109:2822 VIA Labs, Inc. USB2.0 Hub             
+Bus 003 Device 003: ID 0e8d:0608 MediaTek Inc. Wireless_Device
+Bus 003 Device 011: ID 3923:7814 National Instruments Corp. WestBridge 
+Bus 003 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+zhu01@Zhu-lab001:~/dockerDevlop/wifi-iq-capture-usb-hotplugable$ lsusb
+Bus 004 Device 004: ID 0bda:0411 Realtek Semiconductor Corp. Hub
+Bus 004 Device 003: ID 0bda:0411 Realtek Semiconductor Corp. Hub
+Bus 004 Device 002: ID 2109:0822 VIA Labs, Inc. USB3.1 Hub             
+Bus 004 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+Bus 003 Device 006: ID 001f:0b21 Generic USB Audio
+Bus 003 Device 009: ID 046d:c534 Logitech, Inc. Unifying Receiver
+Bus 003 Device 008: ID 0bda:5411 Realtek Semiconductor Corp. RTS5411 Hub
+Bus 003 Device 007: ID 1a86:e010 QinHeng Electronics HKS0402A2U
+Bus 003 Device 005: ID 4348:7048 WinChipHead CH545
+Bus 003 Device 004: ID 0bda:5411 Realtek Semiconductor Corp. RTS5411 Hub
+Bus 003 Device 002: ID 2109:2822 VIA Labs, Inc. USB2.0 Hub             
+Bus 003 Device 003: ID 0e8d:0608 MediaTek Inc. Wireless_Device
+Bus 003 Device 012: ID 3923:7814 National Instruments Corp. WestBridge 
+Bus 003 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+zhu01@Zhu-lab001:~/dockerDevlop/wifi-iq-capture-usb-hotplugable$ docker compose up
+WARN[0000] /home/zhu01/dockerDevlop/wifi-iq-capture-usb-hotplugable/docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion 
+[+] Building 175.2s (10/10) FINISHED                                            
+ => [internal] load local bake definitions                                 0.0s
+ => => reading from stdin 457B                                             0.0s
+ => [internal] load build definition from Dockerfile                       0.0s
+ => => transferring dockerfile: 948B                                       0.0s
+ => [internal] load metadata for docker.io/library/ubuntu:22.04            2.4s
+ => [internal] load .dockerignore                                          0.0s
+ => => transferring context: 2B                                            0.0s
+ => [1/4] FROM docker.io/library/ubuntu:22.04@sha256:59ccd419c0dc0edf9e3b  2.7s
+ => => resolve docker.io/library/ubuntu:22.04@sha256:59ccd419c0dc0edf9e3b  0.0s
+ => => sha256:59ccd419c0dc0edf9e3bff1a3b2b073ea15a2ce4bc4 6.69kB / 6.69kB  0.0s
+ => => sha256:da5fdf346e5313bef2a3dd2476c0251d48103213a5e3a0c 424B / 424B  0.0s
+ => => sha256:1d3ca894b30cbedfe4217dc20baaa99475eac44046a 2.29kB / 2.29kB  0.0s
+ => => sha256:1d387567261efec2a352c45b8d512a8db5c246122 29.54MB / 29.54MB  2.3s
+ => => extracting sha256:1d387567261efec2a352c45b8d512a8db5c246122fb9f246  0.4s
+ => [2/4] RUN apt-get update && apt-get install -y     gnuradio     uhd  131.2s
+ => [3/4] RUN uhd_images_downloader                                       33.7s 
+ => [4/4] WORKDIR /app                                                     0.2s 
+ => exporting to image                                                     4.6s 
+ => => exporting layers                                                    4.6s 
+ => => writing image sha256:1a0ce18eb158d13810807072201190e1095703fa6db9d  0.0s 
+ => => naming to docker.io/library/wifi-iq-capture-usb-hotplugable-wifi-c  0.0s 
+ => resolving provenance for metadata file                                 0.0s 
+[+] Running 2/2
+ ✔ wifi-capture            Built                                           0.0s 
+ ✔ Container wifi-capture  Created                                         0.1s 
+Attaching to wifi-capture
+Gracefully stopping... (press Ctrl+C again to force)
+[+] Stopping 1/1
+ ✔ Container wifi-capture  Stopped                                        10.1s 
+zhu01@Zhu-lab001:~/dockerDevlop/wifi-iq-capture-usb-hotplugable$ lsusb
+Bus 004 Device 004: ID 0bda:0411 Realtek Semiconductor Corp. Hub
+Bus 004 Device 003: ID 0bda:0411 Realtek Semiconductor Corp. Hub
+Bus 004 Device 002: ID 2109:0822 VIA Labs, Inc. USB3.1 Hub             
+Bus 004 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+Bus 003 Device 006: ID 001f:0b21 Generic USB Audio
+Bus 003 Device 009: ID 046d:c534 Logitech, Inc. Unifying Receiver
+Bus 003 Device 008: ID 0bda:5411 Realtek Semiconductor Corp. RTS5411 Hub
+Bus 003 Device 007: ID 1a86:e010 QinHeng Electronics HKS0402A2U
+Bus 003 Device 005: ID 4348:7048 WinChipHead CH545
+Bus 003 Device 004: ID 0bda:5411 Realtek Semiconductor Corp. RTS5411 Hub
+Bus 003 Device 002: ID 2109:2822 VIA Labs, Inc. USB2.0 Hub             
+Bus 003 Device 003: ID 0e8d:0608 MediaTek Inc. Wireless_Device
+Bus 003 Device 012: ID 3923:7814 National Instruments Corp. WestBridge 
+Bus 003 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+Bus 002 Device 001: ID 1d6b:0003 Linux Foundation 3.0 root hub
+Bus 001 Device 001: ID 1d6b:0002 Linux Foundation 2.0 root hub
+zhu01@Zhu-lab001:~/dockerDevlop/wifi-iq-capture-usb-hotplugable$ ./start_capture.sh 
+[*] Enabling X11 GUI access...
+non-network local connections being added to access control list
+[*] Stopping any running containers...
+WARN[0000] /home/zhu01/dockerDevlop/wifi-iq-capture-usb-hotplugable/docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion 
+[+] Running 1/1
+ ✔ Container wifi-capture  Removed                                         0.0s 
+[*] Skipping image rebuild.
+[*] Checking and initializing USRP (if needed)...
+[*] Checking for initialized USRP device... (attempt 1)
+❌ USRP not initialized. Running container to upload firmware...
+WARN[0000] /home/zhu01/dockerDevlop/wifi-iq-capture-usb-hotplugable/docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion 
+[INFO] [UHD] linux; GNU C++ version 11.2.0; Boost_107400; UHD_4.1.0.5-3
+[INFO] [B200] Loading firmware image: /usr/share/uhd/images/usrp_b200_fw.hex...
+No UHD Devices Found
+[*] Waiting 3 seconds for USB re-enumeration...
+[*] Checking for initialized USRP device... (attempt 2)
+✅ USRP device is ready:
+Bus 004 Device 005: ID 3923:7814 National Instruments Corp. NI USRP-2901
+[*] Starting container...
+WARN[0000] /home/zhu01/dockerDevlop/wifi-iq-capture-usb-hotplugable/docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion 
+root@Zhu-lab001:/app# uhd_usrp_probe
+[INFO] [UHD] linux; GNU C++ version 11.2.0; Boost_107400; UHD_4.1.0.5-3
+[INFO] [B200] Detected Device: B210
+[INFO] [B200] Loading FPGA image: /usr/share/uhd/images/usrp_b210_fpga.bin...
+[INFO] [B200] Operating over USB 3.
+[INFO] [B200] Detecting internal GPSDO.... 
+[INFO] [GPS] No GPSDO found
+[INFO] [B200] Initialize CODEC control...
+[INFO] [B200] Initialize Radio control...
+[INFO] [B200] Performing register loopback test... 
+[INFO] [B200] Register loopback test passed
+[INFO] [B200] Performing register loopback test... 
+[INFO] [B200] Register loopback test passed
+[INFO] [B200] Setting master clock rate selection to 'automatic'.
+[INFO] [B200] Asking for clock rate 16.000000 MHz... 
+[INFO] [B200] Actually got clock rate 16.000000 MHz.
+  _____________________________________________________
+ /
+|       Device: B-Series Device
+|     _____________________________________________________
+|    /
+|   |       Mboard: B210
+|   |   serial: 332DC22
+|   |   name: NI2901
+|   |   product: 30740
+|   |   revision: 4
+|   |   FW Version: 8.0
+|   |   FPGA Version: 16.0
+|   |   
+|   |   Time sources:  none, internal, external, gpsdo
+|   |   Clock sources: internal, external, gpsdo
+|   |   Sensors: ref_locked
+|   |     _____________________________________________________
+|   |    /
+|   |   |       RX DSP: 0
+|   |   |   
+|   |   |   Freq range: -8.000 to 8.000 MHz
+|   |     _____________________________________________________
+|   |    /
+|   |   |       RX DSP: 1
+|   |   |   
+|   |   |   Freq range: -8.000 to 8.000 MHz
+|   |     _____________________________________________________
+|   |    /
+|   |   |       RX Dboard: A
+|   |   |     _____________________________________________________
+|   |   |    /
+|   |   |   |       RX Frontend: A
+|   |   |   |   Name: FE-RX2
+|   |   |   |   Antennas: TX/RX, RX2
+|   |   |   |   Sensors: temp, rssi, lo_locked
+|   |   |   |   Freq range: 50.000 to 6000.000 MHz
+|   |   |   |   Gain range PGA: 0.0 to 76.0 step 1.0 dB
+|   |   |   |   Bandwidth range: 200000.0 to 56000000.0 step 0.0 Hz
+|   |   |   |   Connection Type: IQ
+|   |   |   |   Uses LO offset: No
+|   |   |     _____________________________________________________
+|   |   |    /
+|   |   |   |       RX Frontend: B
+|   |   |   |   Name: FE-RX1
+|   |   |   |   Antennas: TX/RX, RX2
+|   |   |   |   Sensors: temp, rssi, lo_locked
+|   |   |   |   Freq range: 50.000 to 6000.000 MHz
+|   |   |   |   Gain range PGA: 0.0 to 76.0 step 1.0 dB
+|   |   |   |   Bandwidth range: 200000.0 to 56000000.0 step 0.0 Hz
+|   |   |   |   Connection Type: IQ
+|   |   |   |   Uses LO offset: No
+|   |   |     _____________________________________________________
+|   |   |    /
+|   |   |   |       RX Codec: A
+|   |   |   |   Name: B210 RX dual ADC
+|   |   |   |   Gain Elements: None
+|   |     _____________________________________________________
+|   |    /
+|   |   |       TX DSP: 0
+|   |   |   
+|   |   |   Freq range: -8.000 to 8.000 MHz
+|   |     _____________________________________________________
+|   |    /
+|   |   |       TX DSP: 1
+|   |   |   
+|   |   |   Freq range: -8.000 to 8.000 MHz
+|   |     _____________________________________________________
+|   |    /
+|   |   |       TX Dboard: A
+|   |   |     _____________________________________________________
+|   |   |    /
+|   |   |   |       TX Frontend: A
+|   |   |   |   Name: FE-TX2
+|   |   |   |   Antennas: TX/RX
+|   |   |   |   Sensors: temp, lo_locked
+|   |   |   |   Freq range: 50.000 to 6000.000 MHz
+|   |   |   |   Gain range PGA: 0.0 to 89.8 step 0.2 dB
+|   |   |   |   Bandwidth range: 200000.0 to 56000000.0 step 0.0 Hz
+|   |   |   |   Connection Type: IQ
+|   |   |   |   Uses LO offset: No
+|   |   |     _____________________________________________________
+|   |   |    /
+|   |   |   |       TX Frontend: B
+|   |   |   |   Name: FE-TX1
+|   |   |   |   Antennas: TX/RX
+|   |   |   |   Sensors: temp, lo_locked
+|   |   |   |   Freq range: 50.000 to 6000.000 MHz
+|   |   |   |   Gain range PGA: 0.0 to 89.8 step 0.2 dB
+|   |   |   |   Bandwidth range: 200000.0 to 56000000.0 step 0.0 Hz
+|   |   |   |   Connection Type: IQ
+|   |   |   |   Uses LO offset: No
+|   |   |     _____________________________________________________
+|   |   |    /
+|   |   |   |       TX Codec: A
+|   |   |   |   Name: B210 TX dual DAC
+|   |   |   |   Gain Elements: None
+
+root@Zhu-lab001:/app# check_usrp_permission.py
+bash: check_usrp_permission.py: command not found
+root@Zhu-lab001:/app# which pytohn
+root@Zhu-lab001:/app# which python
+root@Zhu-lab001:/app# which python3
+/usr/bin/python3
+root@Zhu-lab001:/app# python3 ^C  
+root@Zhu-lab001:/app# python3 check_usrp_permission.py
+python3: can't open file '/app/check_usrp_permission.py': [Errno 2] No such file or directory
+root@Zhu-lab001:/app# ls
+data
+root@Zhu-lab001:/app# cd data
+root@Zhu-lab001:/app/data# ls
+iq_capture.py
+root@Zhu-lab001:/app/data# exit
+exit
+non-network local connections being removed from access control list
+zhu01@Zhu-lab001:~/dockerDevlop/wifi-iq-capture-usb-hotplugable$ which python
+zhu01@Zhu-lab001:~/dockerDevlop/wifi-iq-capture-usb-hotplugable$ which python3
+/usr/bin/python3
+zhu01@Zhu-lab001:~/dockerDevlop/wifi-iq-capture-usb-hotplugable$ python3 check_usrp_permission.py 
+✅ USRP is connected and accessible.
+zhu01@Zhu-lab001:~/dockerDevlop/wifi-iq-capture-usb-hotplugable$ cd data
+zhu01@Zhu-lab001:~/dockerDevlop/wifi-iq-capture-usb-hotplugable/data$ python3 iq_capture.py 
+Traceback (most recent call last):
+  File "/home/zhu01/dockerDevlop/wifi-iq-capture-usb-hotplugable/data/iq_capture.py", line 3, in <module>
+    import uhd
+ModuleNotFoundError: No module named 'uhd'
+zhu01@Zhu-lab001:~/dockerDevlop/wifi-iq-capture-usb-hotplugable/data$ cd ..
+zhu01@Zhu-lab001:~/dockerDevlop/wifi-iq-capture-usb-hotplugable$ ./start_capture.sh 
+[*] Enabling X11 GUI access...
+non-network local connections being added to access control list
+[*] Stopping any running containers...
+WARN[0000] /home/zhu01/dockerDevlop/wifi-iq-capture-usb-hotplugable/docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion 
+WARN[0000] Warning: No resource found to remove for project "wifi-iq-capture-usb-hotplugable". 
+[*] Skipping image rebuild.
+[*] Checking and initializing USRP (if needed)...
+[*] Checking for initialized USRP device... (attempt 1)
+✅ USRP device is ready:
+Bus 004 Device 005: ID 3923:7814 National Instruments Corp. NI USRP-2901
+[*] Starting container...
+WARN[0000] /home/zhu01/dockerDevlop/wifi-iq-capture-usb-hotplugable/docker-compose.yml: the attribute `version` is obsolete, it will be ignored, please remove it to avoid potential confusion 
+root@Zhu-lab001:/app# ls
+data
+root@Zhu-lab001:/app# cd data
+root@Zhu-lab001:/app/data# ls
+iq_capture.py
+root@Zhu-lab001:/app/data# python3 iq_capture.py 
+[INFO] [UHD] linux; GNU C++ version 11.2.0; Boost_107400; UHD_4.1.0.5-3
+[INFO] [B200] Detected Device: B210
+[INFO] [B200] Operating over USB 3.
+[INFO] [B200] Initialize CODEC control...
+[INFO] [B200] Initialize Radio control...
+[INFO] [B200] Performing register loopback test... 
+[INFO] [B200] Register loopback test passed
+[INFO] [B200] Performing register loopback test... 
+[INFO] [B200] Register loopback test passed
+[INFO] [B200] Setting master clock rate selection to 'automatic'.
+[INFO] [B200] Asking for clock rate 16.000000 MHz... 
+[INFO] [B200] Actually got clock rate 16.000000 MHz.
+[INFO] [B200] Asking for clock rate 40.000000 MHz... 
+[INFO] [B200] Actually got clock rate 40.000000 MHz.
+[+] Capturing 10000000 samples ...
+[+] Saved 10000000 IQ samples to /app/data/iq_capture.csv
+root@Zhu-lab001:/app/data# ls -l
+total 497932
+-rw-r--r-- 1 root root 509872673 Jul 18 04:55 iq_capture.csv
+-rwxr-xr-x 1 1000 1000      1713 Jul 17 03:14 iq_capture.py
+root@Zhu-lab001:/app/data# ls
+iq_capture.csv  iq_capture.py
+root@Zhu-lab001:/app/data# ls -l
+total 497932
+-rw-r--r-- 1 root root 509872673 Jul 18 04:55 iq_capture.csv
+-rwxr-xr-x 1 1000 1000      1713 Jul 17 03:14 iq_capture.py
+root@Zhu-lab001:/app/data# head -5 iq_capture.csv 
+-1.422162167727947235e-02,-9.857475757598876953e-03
+-1.348917838186025620e-02,-9.247106499969959259e-03
+-1.376384403556585312e-02,-9.796438738703727722e-03
+-1.300088223069906235e-02,-9.735402651131153107e-03
+-1.394695509225130081e-02,-9.308143518865108490e-03
+root@Zhu-lab001:/app/data# 
+

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Packet Flood</title>
+</head>
+<body>
+  <h2>Sending packets...</h2>
+  <p>This page will send repeated HTTP requests in the background.</p>
+
+  <script>
+    // Send a GET request every 300 ms
+    setInterval(() => {
+      fetch("/ping?" + Math.random()); // Add randomness to avoid caching
+    }, 300);
+  </script>
+</body>
+</html>

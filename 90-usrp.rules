@@ -1,6 +1,0 @@
-# Ettus USRP (e.g., B200/B210)
-SUBSYSTEM=="usb", ATTR{idVendor}=="2500", MODE="0666", GROUP="plugdev"
-
-# NI USRP (e.g., USRP-2901)
-SUBSYSTEM=="usb", ATTR{idVendor}=="3923", MODE="0666", GROUP="plugdev"
-
