@@ -146,8 +146,8 @@ class rftap_encap(gr.basic_block):
         #TEST preamble[0:96]->preamble[96:192]
         freq_bench = self.average_product_of_conjugates(preamble[0:96+32])
        
-        filename = "/root/data/"+mac_address+"_pre.csv"
-        mac_address_filename =  "/root/data/mac_address.csv"
+        filename = "/data/"+mac_address+"_pre.csv"
+        mac_address_filename =  "/data/mac_address.csv"
             
         data_to_write = [mac_address, freq, preamble, freq_bench,short_freq, long_freq]
 
