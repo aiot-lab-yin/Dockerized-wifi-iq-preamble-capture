@@ -1,4 +1,0 @@
-*.pyc
-build
-/examples/rds_rx_rftap.py
-/examples/wifi_rx_rftap.py

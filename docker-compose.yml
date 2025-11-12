@@ -1,0 +1,27 @@
+version: "3.8"
+
+services:
+  wifi-capture:
+    build: .  # Build image from Dockerfile in current directory
+
+    container_name: wifi-capture  # Optional: name the container
+
+    privileged: true              # Required to access USB devices
+    devices:
+      - /dev/bus/usb:/dev/bus/usb  # Pass host USB devices to container
+
+    network_mode: "host"          # Use host networking (for USRP/ethernet access)
+
+    environment:
+      - DISPLAY=$DISPLAY          # Forward GUI display to host
+
+    volumes:
+      - ./data:/app/data
+      - /tmp/.X11-unix:/tmp/.X11-unix
+      - ./gnuradio_prefs.conf:/root/.gnuradio/prefs.conf
+      - /home/${USER}/data:/root/data
+
+
+    stdin_open: true              # Keep STDIN open
+    tty: true                     # Allocate a TTY for shell access
+
