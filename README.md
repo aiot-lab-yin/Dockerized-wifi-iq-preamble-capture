@@ -23,8 +23,7 @@ wifi-iq-capture/
 ├── udev/
 │   └── 90-usrp.rules                 # Host udev rule for Ettus and NI USRP
 ├── data/
-│   ├── iq_capture.py                 # Python script for capturing IQ to CSV
-│   └── iq_capture.csv                # Output IQ data file (generated after capture)
+│   └── mac_address.csv                # Output IQ data file (generated after capture)
 ├── src/
 |   ├── gr-foo                        # A collection of custom blocks from https://github.com/bastibl/gr-foo
 |   ├── gr-ieee802-11-maint-3.10      # The secondary development module gr-ieee802-11 a/p/g
