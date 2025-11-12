@@ -1,1 +1,0 @@
-# capture_writer placeholder
