@@ -16,10 +16,10 @@ services:
       - DISPLAY=$DISPLAY          # Forward GUI display to host
 
     volumes:
-      - ./data:/app/data
+      - ./data:/data
       - /tmp/.X11-unix:/tmp/.X11-unix
       - ./gnuradio_prefs.conf:/root/.gnuradio/prefs.conf
-      - /home/${USER}/data:/root/data
+      - ./root/data:/root/data
 
 
     stdin_open: true              # Keep STDIN open
