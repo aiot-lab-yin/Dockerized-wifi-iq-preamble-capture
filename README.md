@@ -23,7 +23,7 @@ wifi-iq-capture/
 ├── udev/
 │   └── 90-usrp.rules                 # Host udev rule for Ettus and NI USRP
 ├── data/
-│   └── mac_address.csv                # Output IQ data file (generated after capture)
+│   └── mac_address.csv               # The MAC address of the device being collected needs to be entered.
 ├── src/
 |   ├── gr-foo                        # A collection of custom blocks from https://github.com/bastibl/gr-foo
 |   ├── gr-ieee802-11-maint-3.10      # The secondary development module gr-ieee802-11 a/p/g
@@ -49,13 +49,21 @@ cd wifi-iq-capture
 ./start_capture.sh
 ```
 
-### 3. Run GNU Radio Companion GUI
+### 3. Configure Target MAC Addresses
+In `/data/mac_address.csv`, write the MAC addresses of the devices you want to capture in the first column, and the current number of collected samples for each device in the second column (you may initialize this value as 0).
+
+
+### 4. Run GNU Radio Companion GUI
 
 ```bash
 gnuradio-companion
 ```
 
 Design or run `/src/gr-ieee802-11-maint-3.10/example/wifi_rx.grc` files with full GUI support.
+
+### 5. Select the Sampling Channel
+
+In the corresponding XXX module, select the desired Wi-Fi channel (you can confirm it via your router settings), and start the IQ sampling.
 
 ---
 
