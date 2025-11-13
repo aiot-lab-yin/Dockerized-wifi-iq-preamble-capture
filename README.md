@@ -16,16 +16,18 @@ This project enables capturing Wi-Fi IQ data using a USRP B210 and saving it in 
 
 ```
 wifi-iq-capture/
-├── Dockerfile                # Docker image with UHD, GNU Radio, GUI support
-├── docker-compose.yml       # Container config with USB, host networking, GUI
-├── start_capture.sh         # Smart startup script (interactive + rebuild flags)
-├── check_usrp_permission.py # Container-side USRP permission check
+├── Dockerfile                        # Docker image with UHD, GNU Radio, GUI support
+├── docker-compose.yml                # Container config with USB, host networking, GUI
+├── start_capture.sh                  # Smart startup script (interactive + rebuild flags)
+├── check_usrp_permission.py          # Container-side USRP permission check
 ├── udev/
-│   └── 90-usrp.rules         # Host udev rule for Ettus and NI USRP
+│   └── 90-usrp.rules                 # Host udev rule for Ettus and NI USRP
 ├── data/
-│   ├── iq_capture.py        # Python script for capturing IQ to CSV
-│   └── iq_capture.csv       # Output IQ data file (generated after capture)
-├── wifi_rx.grc              # (Optional) GNU Radio flowgraph for Wi-Fi receive
+│   └── mac_address.csv               # The MAC address of the device being collected needs to be entered.
+├── src/
+|   ├── gr-foo                        # A collection of custom blocks from https://github.com/bastibl/gr-foo
+|   ├── gr-ieee802-11-maint-3.10      # The secondary development module gr-ieee802-11 a/p/g
+|   └── gr-rftap-maint-3.10_202509m   # The secondary development module gr-rftap
 ├── CHANGELOG.md             # Version history (Keep a Changelog format)
 └── README.md                # This document
 ```
@@ -47,24 +49,25 @@ cd wifi-iq-capture
 ./start_capture.sh
 ```
 
-### 3. Inside the Container
+### 3. Configure Target MAC Addresses
+In `/data/mac_address.csv`, write the MAC addresses of the devices you want to capture in the first column, and the current number of collected samples for each device in the second column (you may initialize this value as 0).
 
-#### Option A: Run IQ Capture Script
 
-```bash
-cd /app/data
-python3 iq_capture.py
-```
-
-This captures 10M IQ samples from USRP B210 and saves them to `iq_capture.csv`.
-
-#### Option B: Run GNU Radio Companion GUI
+### 4. Run GNU Radio Companion GUI
 
 ```bash
 gnuradio-companion
 ```
 
-Design or run `.grc` files with full GUI support.
+Design or run `/src/gr-ieee802-11-maint-3.10/example/wifi_rx.grc` files with full GUI support.
+
+### 5. Select the Sampling Channel
+
+In the corresponding XXX module, select the desired Wi-Fi channel (you can confirm it via your router settings), and start the IQ sampling.
+
+### 6. Data Storage
+
+The collected IQ samples are stored in the Docker container under the data directory.
 
 ---
 
