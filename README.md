@@ -65,6 +65,10 @@ Design or run `/src/gr-ieee802-11-maint-3.10/example/wifi_rx.grc` files with ful
 
 In the corresponding XXX module, select the desired Wi-Fi channel (you can confirm it via your router settings), and start the IQ sampling.
 
+### 6. Data Storage
+
+The collected IQ samples are stored in the Docker container under the data directory.
+
 ---
 
 ## 🔌 USRP Access Setup (Required)
