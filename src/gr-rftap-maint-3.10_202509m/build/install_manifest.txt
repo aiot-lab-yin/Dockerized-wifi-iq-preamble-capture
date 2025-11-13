@@ -1,0 +1,8 @@
+/usr/local/lib/cmake/rftap/rftapConfig.cmake
+/usr/local/lib/python3.10/dist-packages/rftap/__init__.py
+/usr/local/lib/python3.10/dist-packages/rftap/rftap_encap.py
+/usr/local/lib/python3.10/dist-packages/rftap/__init__.pyc
+/usr/local/lib/python3.10/dist-packages/rftap/rftap_encap.pyc
+/usr/local/lib/python3.10/dist-packages/rftap/__init__.pyo
+/usr/local/lib/python3.10/dist-packages/rftap/rftap_encap.pyo
+/usr/local/share/gnuradio/grc/blocks/rftap_rftap_encap.block.yml

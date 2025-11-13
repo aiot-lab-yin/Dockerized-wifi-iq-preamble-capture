@@ -1,0 +1,736 @@
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/yinlab/miniforge3/envs/gr1/share/cmake-3.30/Modules/CMakeDetermineSystem.cmake:205 (message)"
+      - "CMakeLists.txt:13 (project)"
+    message: |
+      The system is: Linux - 6.2.0-36-generic - x86_64
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/yinlab/miniforge3/envs/gr1/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/yinlab/miniforge3/envs/gr1/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/yinlab/miniforge3/envs/gr1/share/cmake-3.30/Modules/CMakeDetermineCXXCompiler.cmake:126 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:13 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /home/yinlab/miniforge3/envs/gr1/bin/x86_64-conda-linux-gnu-c++ 
+      Build flags: -fvisibility-inlines-hidden;-fmessage-length=0;-march=nocona;-mtune=haswell;-ftree-vectorize;-fPIC;-fstack-protector-strong;-fno-plt;-O2;-ffunction-sections;-pipe;-isystem;/home/yinlab/miniforge3/envs/gr1/include
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /home/yinlab/gr-block/gr-foo/build/CMakeFiles/3.30.0/CompilerIdCXX/a.out
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/yinlab/miniforge3/envs/gr1/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/home/yinlab/miniforge3/envs/gr1/share/cmake-3.30/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/home/yinlab/miniforge3/envs/gr1/share/cmake-3.30/Modules/CMakeDetermineCCompiler.cmake:123 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:13 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /home/yinlab/miniforge3/envs/gr1/bin/x86_64-conda-linux-gnu-cc 
+      Build flags: -march=nocona;-mtune=haswell;-ftree-vectorize;-fPIC;-fstack-protector-strong;-fno-plt;-O2;-ffunction-sections;-pipe;-isystem;/home/yinlab/miniforge3/envs/gr1/include
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /home/yinlab/gr-block/gr-foo/build/CMakeFiles/3.30.0/CompilerIdC/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/yinlab/miniforge3/envs/gr1/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/home/yinlab/miniforge3/envs/gr1/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:13 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/home/yinlab/gr-block/gr-foo/build/CMakeFiles/CMakeScratch/TryCompile-XeXV50"
+      binary: "/home/yinlab/gr-block/gr-foo/build/CMakeFiles/CMakeScratch/TryCompile-XeXV50"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/yinlab/miniforge3/envs/gr1/include"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/yinlab/miniforge3/envs/gr1/lib -Wl,-rpath-link,/home/yinlab/miniforge3/envs/gr1/lib -L/home/yinlab/miniforge3/envs/gr1/lib"
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/yinlab/gr-block/gr-foo/build/CMakeFiles/CMakeScratch/TryCompile-XeXV50'
+        
+        Run Build Command(s): /home/yinlab/miniforge3/envs/gr1/bin/ninja -v cmTC_d345c
+        [1/2] /home/yinlab/miniforge3/envs/gr1/bin/x86_64-conda-linux-gnu-c++   -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/yinlab/miniforge3/envs/gr1/include    -v -o CMakeFiles/cmTC_d345c.dir/CMakeCXXCompilerABI.cpp.o -c /home/yinlab/miniforge3/envs/gr1/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp
+        Reading specs from /home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/specs
+        could not find specs file conda.specs
+        COLLECT_GCC=/home/yinlab/miniforge3/envs/gr1/bin/x86_64-conda-linux-gnu-c++
+        Target: x86_64-conda-linux-gnu
+        Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176702934/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176702934/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176702934/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176702934/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-languages=c,c++,fortran,objc,obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-lto --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176702934/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176702934/work/cf-compilers/x86_64-conda-linux-gnu/sysroot --with-native-system-header-dir=/usr/include --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176702934/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib/gcc/x86_64-conda-linux-gnu/12.3.0/include/c++ --with-pkgversion='conda-forge gcc 12.3.0-13' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose --enable-libsanitizer --enable-default-pie --enable-threads=posix
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 12.3.0 (conda-forge gcc 12.3.0-13) 
+        COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/yinlab/miniforge3/envs/gr1/include' '-v' '-o' 'CMakeFiles/cmTC_d345c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-dumpdir' 'CMakeFiles/cmTC_d345c.dir/'
+         /home/yinlab/miniforge3/envs/gr1/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/cc1plus -quiet -v -iprefix /home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/ -isysroot /home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot -D_GNU_SOURCE -isystem /home/yinlab/miniforge3/envs/gr1/include /home/yinlab/miniforge3/envs/gr1/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_d345c.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -march=nocona -mtune=haswell -O2 -version -fvisibility-inlines-hidden -fmessage-length=0 -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -ffunction-sections -o - |
+         /home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_d345c.dir/CMakeCXXCompilerABI.cpp.o
+        GNU assembler version 2.40 (x86_64-conda-linux-gnu) using BFD version (GNU Binutils) 2.40
+        GNU C++17 (conda-forge gcc 12.3.0-13) version 12.3.0 (x86_64-conda-linux-gnu)
+        	compiled by GNU C version 13.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/include"
+        ignoring duplicate directory "/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include/c++"
+        ignoring duplicate directory "/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include/c++/x86_64-conda-linux-gnu"
+        ignoring duplicate directory "/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include/c++/backward"
+        ignoring duplicate directory "/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include"
+        ignoring nonexistent directory "/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/local/include"
+        ignoring duplicate directory "/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include-fixed"
+        ignoring nonexistent directory "/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /home/yinlab/miniforge3/envs/gr1/include
+         /home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include/c++
+         /home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include/c++/x86_64-conda-linux-gnu
+         /home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include/c++/backward
+         /home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include
+         /home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include-fixed
+         /home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/include
+        End of search list.
+        GNU C++17 (conda-forge gcc 12.3.0-13) version 12.3.0 (x86_64-conda-linux-gnu)
+        	compiled by GNU C version 13.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 2a1d6e38fc2aea5ba90f9be90af70519
+        COMPILER_PATH=/home/yinlab/miniforge3/envs/gr1/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/:/home/yinlab/miniforge3/envs/gr1/bin/../libexec/gcc/:/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/
+        LIBRARY_PATH=/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/:/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/:/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../lib/:/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/:/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../:/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
+        COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/yinlab/miniforge3/envs/gr1/include' '-v' '-o' 'CMakeFiles/cmTC_d345c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-dumpdir' 'CMakeFiles/cmTC_d345c.dir/CMakeCXXCompilerABI.cpp.'
+        [2/2] : && /home/yinlab/miniforge3/envs/gr1/bin/x86_64-conda-linux-gnu-c++ -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/yinlab/miniforge3/envs/gr1/include -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/yinlab/miniforge3/envs/gr1/lib -Wl,-rpath-link,/home/yinlab/miniforge3/envs/gr1/lib -L/home/yinlab/miniforge3/envs/gr1/lib -v -Wl,-v CMakeFiles/cmTC_d345c.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_d345c   && :
+        Reading specs from /home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/specs
+        could not find specs file conda.specs
+        COLLECT_GCC=/home/yinlab/miniforge3/envs/gr1/bin/x86_64-conda-linux-gnu-c++
+        COLLECT_LTO_WRAPPER=/home/yinlab/miniforge3/envs/gr1/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/lto-wrapper
+        Target: x86_64-conda-linux-gnu
+        Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176702934/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176702934/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176702934/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176702934/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-languages=c,c++,fortran,objc,obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-lto --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176702934/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176702934/work/cf-compilers/x86_64-conda-linux-gnu/sysroot --with-native-system-header-dir=/usr/include --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176702934/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib/gcc/x86_64-conda-linux-gnu/12.3.0/include/c++ --with-pkgversion='conda-forge gcc 12.3.0-13' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose --enable-libsanitizer --enable-default-pie --enable-threads=posix
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 12.3.0 (conda-forge gcc 12.3.0-13) 
+        COMPILER_PATH=/home/yinlab/miniforge3/envs/gr1/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/:/home/yinlab/miniforge3/envs/gr1/bin/../libexec/gcc/:/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/
+        LIBRARY_PATH=/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/:/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/:/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../lib/:/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/:/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../:/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
+        COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/yinlab/miniforge3/envs/gr1/include' '-L/home/yinlab/miniforge3/envs/gr1/lib' '-v' '-o' 'cmTC_d345c' '-shared-libgcc' '-dumpdir' 'cmTC_d345c.'
+         /home/yinlab/miniforge3/envs/gr1/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/collect2 -plugin /home/yinlab/miniforge3/envs/gr1/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/liblto_plugin.so -plugin-opt=/home/yinlab/miniforge3/envs/gr1/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cczr6Igj.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_d345c /home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtbeginS.o -L/home/yinlab/miniforge3/envs/gr1/lib -L/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0 -L/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc -L/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../lib -L/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib -L/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../.. -L/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections --allow-shlib-undefined -rpath /home/yinlab/miniforge3/envs/gr1/lib -rpath-link /home/yinlab/miniforge3/envs/gr1/lib -v CMakeFiles/cmTC_d345c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtendS.o /home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/yinlab/miniforge3/envs/gr1/lib
+        collect2 version 12.3.0
+        /home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/ld -plugin /home/yinlab/miniforge3/envs/gr1/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/liblto_plugin.so -plugin-opt=/home/yinlab/miniforge3/envs/gr1/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cczr6Igj.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_d345c /home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtbeginS.o -L/home/yinlab/miniforge3/envs/gr1/lib -L/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0 -L/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc -L/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../lib -L/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib -L/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../.. -L/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections --allow-shlib-undefined -rpath /home/yinlab/miniforge3/envs/gr1/lib -rpath-link /home/yinlab/miniforge3/envs/gr1/lib -v CMakeFiles/cmTC_d345c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtendS.o /home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/yinlab/miniforge3/envs/gr1/lib
+        GNU ld (GNU Binutils) 2.40
+        COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/yinlab/miniforge3/envs/gr1/include' '-L/home/yinlab/miniforge3/envs/gr1/lib' '-v' '-o' 'cmTC_d345c' '-shared-libgcc' '-dumpdir' 'cmTC_d345c.'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/yinlab/miniforge3/envs/gr1/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/home/yinlab/miniforge3/envs/gr1/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:13 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/home/yinlab/miniforge3/envs/gr1/include]
+          add: [/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include/c++]
+          add: [/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include/c++/x86_64-conda-linux-gnu]
+          add: [/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include/c++/backward]
+          add: [/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include]
+          add: [/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include-fixed]
+          add: [/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/include]
+        end of search list found
+        collapse include dir [/home/yinlab/miniforge3/envs/gr1/include] ==> [/home/yinlab/miniforge3/envs/gr1/include]
+        collapse include dir [/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include/c++] ==> [/home/yinlab/miniforge3/envs/gr1/lib/gcc/x86_64-conda-linux-gnu/12.3.0/include/c++]
+        collapse include dir [/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include/c++/x86_64-conda-linux-gnu] ==> [/home/yinlab/miniforge3/envs/gr1/lib/gcc/x86_64-conda-linux-gnu/12.3.0/include/c++/x86_64-conda-linux-gnu]
+        collapse include dir [/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include/c++/backward] ==> [/home/yinlab/miniforge3/envs/gr1/lib/gcc/x86_64-conda-linux-gnu/12.3.0/include/c++/backward]
+        collapse include dir [/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include] ==> [/home/yinlab/miniforge3/envs/gr1/lib/gcc/x86_64-conda-linux-gnu/12.3.0/include]
+        collapse include dir [/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include-fixed] ==> [/home/yinlab/miniforge3/envs/gr1/lib/gcc/x86_64-conda-linux-gnu/12.3.0/include-fixed]
+        collapse include dir [/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/include] ==> [/home/yinlab/miniforge3/envs/gr1/x86_64-conda-linux-gnu/sysroot/usr/include]
+        implicit include dirs: [/home/yinlab/miniforge3/envs/gr1/include;/home/yinlab/miniforge3/envs/gr1/lib/gcc/x86_64-conda-linux-gnu/12.3.0/include/c++;/home/yinlab/miniforge3/envs/gr1/lib/gcc/x86_64-conda-linux-gnu/12.3.0/include/c++/x86_64-conda-linux-gnu;/home/yinlab/miniforge3/envs/gr1/lib/gcc/x86_64-conda-linux-gnu/12.3.0/include/c++/backward;/home/yinlab/miniforge3/envs/gr1/lib/gcc/x86_64-conda-linux-gnu/12.3.0/include;/home/yinlab/miniforge3/envs/gr1/lib/gcc/x86_64-conda-linux-gnu/12.3.0/include-fixed;/home/yinlab/miniforge3/envs/gr1/x86_64-conda-linux-gnu/sysroot/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/yinlab/miniforge3/envs/gr1/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/home/yinlab/miniforge3/envs/gr1/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:13 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/home/yinlab/gr-block/gr-foo/build/CMakeFiles/CMakeScratch/TryCompile-XeXV50']
+        ignore line: []
+        ignore line: [Run Build Command(s): /home/yinlab/miniforge3/envs/gr1/bin/ninja -v cmTC_d345c]
+        ignore line: [[1/2] /home/yinlab/miniforge3/envs/gr1/bin/x86_64-conda-linux-gnu-c++   -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/yinlab/miniforge3/envs/gr1/include    -v -o CMakeFiles/cmTC_d345c.dir/CMakeCXXCompilerABI.cpp.o -c /home/yinlab/miniforge3/envs/gr1/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Reading specs from /home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/specs]
+        ignore line: [could not find specs file conda.specs]
+        ignore line: [COLLECT_GCC=/home/yinlab/miniforge3/envs/gr1/bin/x86_64-conda-linux-gnu-c++]
+        ignore line: [Target: x86_64-conda-linux-gnu]
+        ignore line: [Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176702934/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176702934/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176702934/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176702934/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-languages=c c++ fortran objc obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-lto --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176702934/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176702934/work/cf-compilers/x86_64-conda-linux-gnu/sysroot --with-native-system-header-dir=/usr/include --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176702934/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib/gcc/x86_64-conda-linux-gnu/12.3.0/include/c++ --with-pkgversion='conda-forge gcc 12.3.0-13' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose --enable-libsanitizer --enable-default-pie --enable-threads=posix]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 12.3.0 (conda-forge gcc 12.3.0-13) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/yinlab/miniforge3/envs/gr1/include' '-v' '-o' 'CMakeFiles/cmTC_d345c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-dumpdir' 'CMakeFiles/cmTC_d345c.dir/']
+        ignore line: [ /home/yinlab/miniforge3/envs/gr1/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/cc1plus -quiet -v -iprefix /home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/ -isysroot /home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot -D_GNU_SOURCE -isystem /home/yinlab/miniforge3/envs/gr1/include /home/yinlab/miniforge3/envs/gr1/share/cmake-3.30/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_d345c.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -march=nocona -mtune=haswell -O2 -version -fvisibility-inlines-hidden -fmessage-length=0 -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -ffunction-sections -o - |]
+        ignore line: [ /home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_d345c.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [GNU assembler version 2.40 (x86_64-conda-linux-gnu) using BFD version (GNU Binutils) 2.40]
+        ignore line: [GNU C++17 (conda-forge gcc 12.3.0-13) version 12.3.0 (x86_64-conda-linux-gnu)]
+        ignore line: [	compiled by GNU C version 13.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/include"]
+        ignore line: [ignoring duplicate directory "/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include/c++"]
+        ignore line: [ignoring duplicate directory "/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include/c++/x86_64-conda-linux-gnu"]
+        ignore line: [ignoring duplicate directory "/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include/c++/backward"]
+        ignore line: [ignoring duplicate directory "/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include"]
+        ignore line: [ignoring nonexistent directory "/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/local/include"]
+        ignore line: [ignoring duplicate directory "/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /home/yinlab/miniforge3/envs/gr1/include]
+        ignore line: [ /home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include/c++]
+        ignore line: [ /home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include/c++/x86_64-conda-linux-gnu]
+        ignore line: [ /home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include/c++/backward]
+        ignore line: [ /home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include]
+        ignore line: [ /home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include-fixed]
+        ignore line: [ /home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C++17 (conda-forge gcc 12.3.0-13) version 12.3.0 (x86_64-conda-linux-gnu)]
+        ignore line: [	compiled by GNU C version 13.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 2a1d6e38fc2aea5ba90f9be90af70519]
+        ignore line: [COMPILER_PATH=/home/yinlab/miniforge3/envs/gr1/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/:/home/yinlab/miniforge3/envs/gr1/bin/../libexec/gcc/:/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/]
+        ignore line: [LIBRARY_PATH=/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/:/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/:/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../lib/:/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/:/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../:/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/yinlab/miniforge3/envs/gr1/include' '-v' '-o' 'CMakeFiles/cmTC_d345c.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-dumpdir' 'CMakeFiles/cmTC_d345c.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [[2/2] : && /home/yinlab/miniforge3/envs/gr1/bin/x86_64-conda-linux-gnu-c++ -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/yinlab/miniforge3/envs/gr1/include -Wl -O2 -Wl --sort-common -Wl --as-needed -Wl -z relro -Wl -z now -Wl --disable-new-dtags -Wl --gc-sections -Wl --allow-shlib-undefined -Wl -rpath /home/yinlab/miniforge3/envs/gr1/lib -Wl -rpath-link /home/yinlab/miniforge3/envs/gr1/lib -L/home/yinlab/miniforge3/envs/gr1/lib -v -Wl -v CMakeFiles/cmTC_d345c.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_d345c   && :]
+        ignore line: [Reading specs from /home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/specs]
+        ignore line: [could not find specs file conda.specs]
+        ignore line: [COLLECT_GCC=/home/yinlab/miniforge3/envs/gr1/bin/x86_64-conda-linux-gnu-c++]
+        ignore line: [COLLECT_LTO_WRAPPER=/home/yinlab/miniforge3/envs/gr1/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/lto-wrapper]
+        ignore line: [Target: x86_64-conda-linux-gnu]
+        ignore line: [Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176702934/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176702934/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176702934/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176702934/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-languages=c c++ fortran objc obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-lto --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176702934/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176702934/work/cf-compilers/x86_64-conda-linux-gnu/sysroot --with-native-system-header-dir=/usr/include --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176702934/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib/gcc/x86_64-conda-linux-gnu/12.3.0/include/c++ --with-pkgversion='conda-forge gcc 12.3.0-13' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose --enable-libsanitizer --enable-default-pie --enable-threads=posix]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 12.3.0 (conda-forge gcc 12.3.0-13) ]
+        ignore line: [COMPILER_PATH=/home/yinlab/miniforge3/envs/gr1/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/:/home/yinlab/miniforge3/envs/gr1/bin/../libexec/gcc/:/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/]
+        ignore line: [LIBRARY_PATH=/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/:/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/:/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../lib/:/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/:/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../:/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-fvisibility-inlines-hidden' '-fmessage-length=0' '-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/yinlab/miniforge3/envs/gr1/include' '-L/home/yinlab/miniforge3/envs/gr1/lib' '-v' '-o' 'cmTC_d345c' '-shared-libgcc' '-dumpdir' 'cmTC_d345c.']
+        link line: [ /home/yinlab/miniforge3/envs/gr1/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/collect2 -plugin /home/yinlab/miniforge3/envs/gr1/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/liblto_plugin.so -plugin-opt=/home/yinlab/miniforge3/envs/gr1/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cczr6Igj.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_d345c /home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtbeginS.o -L/home/yinlab/miniforge3/envs/gr1/lib -L/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0 -L/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc -L/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../lib -L/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib -L/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../.. -L/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections --allow-shlib-undefined -rpath /home/yinlab/miniforge3/envs/gr1/lib -rpath-link /home/yinlab/miniforge3/envs/gr1/lib -v CMakeFiles/cmTC_d345c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtendS.o /home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/yinlab/miniforge3/envs/gr1/lib]
+          arg [/home/yinlab/miniforge3/envs/gr1/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/home/yinlab/miniforge3/envs/gr1/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/home/yinlab/miniforge3/envs/gr1/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cczr6Igj.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [--sysroot=/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_d345c] ==> ignore
+          arg [/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o] ==> obj [/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o]
+          arg [/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o] ==> obj [/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o]
+          arg [/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtbeginS.o] ==> obj [/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtbeginS.o]
+          arg [-L/home/yinlab/miniforge3/envs/gr1/lib] ==> dir [/home/yinlab/miniforge3/envs/gr1/lib]
+          arg [-L/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0] ==> dir [/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0]
+          arg [-L/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc] ==> dir [/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc]
+          arg [-L/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib] ==> dir [/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib]
+          arg [-L/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../lib] ==> dir [/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../lib]
+          arg [-L/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib] ==> dir [/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib]
+          arg [-L/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib] ==> dir [/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib]
+          arg [-L/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib] ==> dir [/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib]
+          arg [-L/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../..] ==> dir [/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../..]
+          arg [-L/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/lib] ==> dir [/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/lib]
+          arg [-L/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib] ==> dir [/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib]
+          arg [-O2] ==> ignore
+          arg [--sort-common] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-znow] ==> ignore
+          arg [--disable-new-dtags] ==> ignore
+          arg [--gc-sections] ==> ignore
+          arg [--allow-shlib-undefined] ==> ignore
+          arg [-rpath] ==> ignore
+          arg [/home/yinlab/miniforge3/envs/gr1/lib] ==> ignore
+          arg [-rpath-link] ==> ignore
+          arg [/home/yinlab/miniforge3/envs/gr1/lib] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_d345c.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lm] ==> lib [m]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lc] ==> lib [c]
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [-lgcc] ==> lib [gcc]
+          arg [/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtendS.o] ==> obj [/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtendS.o]
+          arg [/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o] ==> obj [/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o]
+          arg [-rpath] ==> ignore
+          arg [/home/yinlab/miniforge3/envs/gr1/lib] ==> ignore
+        ignore line: [collect2 version 12.3.0]
+        ignore line: [/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/ld -plugin /home/yinlab/miniforge3/envs/gr1/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/liblto_plugin.so -plugin-opt=/home/yinlab/miniforge3/envs/gr1/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cczr6Igj.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_d345c /home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtbeginS.o -L/home/yinlab/miniforge3/envs/gr1/lib -L/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0 -L/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc -L/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../lib -L/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib -L/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../.. -L/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections --allow-shlib-undefined -rpath /home/yinlab/miniforge3/envs/gr1/lib -rpath-link /home/yinlab/miniforge3/envs/gr1/lib -v CMakeFiles/cmTC_d345c.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtendS.o /home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/yinlab/miniforge3/envs/gr1/lib]
+        linker tool for 'CXX': /home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/ld
+        collapse obj [/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o] ==> [/home/yinlab/miniforge3/envs/gr1/x86_64-conda-linux-gnu/sysroot/usr/lib/Scrt1.o]
+        collapse obj [/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o] ==> [/home/yinlab/miniforge3/envs/gr1/x86_64-conda-linux-gnu/sysroot/usr/lib/crti.o]
+        collapse obj [/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtbeginS.o] ==> [/home/yinlab/miniforge3/envs/gr1/lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtbeginS.o]
+        collapse obj [/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtendS.o] ==> [/home/yinlab/miniforge3/envs/gr1/lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtendS.o]
+        collapse obj [/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o] ==> [/home/yinlab/miniforge3/envs/gr1/x86_64-conda-linux-gnu/sysroot/usr/lib/crtn.o]
+        collapse library dir [/home/yinlab/miniforge3/envs/gr1/lib] ==> [/home/yinlab/miniforge3/envs/gr1/lib]
+        collapse library dir [/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0] ==> [/home/yinlab/miniforge3/envs/gr1/lib/gcc/x86_64-conda-linux-gnu/12.3.0]
+        collapse library dir [/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc] ==> [/home/yinlab/miniforge3/envs/gr1/lib/gcc]
+        collapse library dir [/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib] ==> [/home/yinlab/miniforge3/envs/gr1/x86_64-conda-linux-gnu/lib]
+        collapse library dir [/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../lib] ==> [/home/yinlab/miniforge3/envs/gr1/lib]
+        collapse library dir [/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib] ==> [/home/yinlab/miniforge3/envs/gr1/x86_64-conda-linux-gnu/sysroot/lib]
+        collapse library dir [/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib] ==> [/home/yinlab/miniforge3/envs/gr1/x86_64-conda-linux-gnu/sysroot/usr/lib]
+        collapse library dir [/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib] ==> [/home/yinlab/miniforge3/envs/gr1/x86_64-conda-linux-gnu/lib]
+        collapse library dir [/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../..] ==> [/home/yinlab/miniforge3/envs/gr1/lib]
+        collapse library dir [/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/lib] ==> [/home/yinlab/miniforge3/envs/gr1/x86_64-conda-linux-gnu/sysroot/lib]
+        collapse library dir [/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib] ==> [/home/yinlab/miniforge3/envs/gr1/x86_64-conda-linux-gnu/sysroot/usr/lib]
+        implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+        implicit objs: [/home/yinlab/miniforge3/envs/gr1/x86_64-conda-linux-gnu/sysroot/usr/lib/Scrt1.o;/home/yinlab/miniforge3/envs/gr1/x86_64-conda-linux-gnu/sysroot/usr/lib/crti.o;/home/yinlab/miniforge3/envs/gr1/lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtbeginS.o;/home/yinlab/miniforge3/envs/gr1/lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtendS.o;/home/yinlab/miniforge3/envs/gr1/x86_64-conda-linux-gnu/sysroot/usr/lib/crtn.o]
+        implicit dirs: [/home/yinlab/miniforge3/envs/gr1/lib;/home/yinlab/miniforge3/envs/gr1/lib/gcc/x86_64-conda-linux-gnu/12.3.0;/home/yinlab/miniforge3/envs/gr1/lib/gcc;/home/yinlab/miniforge3/envs/gr1/x86_64-conda-linux-gnu/lib;/home/yinlab/miniforge3/envs/gr1/x86_64-conda-linux-gnu/sysroot/lib;/home/yinlab/miniforge3/envs/gr1/x86_64-conda-linux-gnu/sysroot/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/yinlab/miniforge3/envs/gr1/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/home/yinlab/miniforge3/envs/gr1/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/home/yinlab/miniforge3/envs/gr1/share/cmake-3.30/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:13 (project)"
+    message: |
+      Running the CXX compiler's linker: "/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/ld" "-v"
+      GNU ld (GNU Binutils) 2.40
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/yinlab/miniforge3/envs/gr1/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:74 (try_compile)"
+      - "/home/yinlab/miniforge3/envs/gr1/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:13 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/home/yinlab/gr-block/gr-foo/build/CMakeFiles/CMakeScratch/TryCompile-XH5Hfu"
+      binary: "/home/yinlab/gr-block/gr-foo/build/CMakeFiles/CMakeScratch/TryCompile-XH5Hfu"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/yinlab/miniforge3/envs/gr1/include"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/yinlab/miniforge3/envs/gr1/lib -Wl,-rpath-link,/home/yinlab/miniforge3/envs/gr1/lib -L/home/yinlab/miniforge3/envs/gr1/lib"
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/home/yinlab/gr-block/gr-foo/build/CMakeFiles/CMakeScratch/TryCompile-XH5Hfu'
+        
+        Run Build Command(s): /home/yinlab/miniforge3/envs/gr1/bin/ninja -v cmTC_292c1
+        [1/2] /home/yinlab/miniforge3/envs/gr1/bin/x86_64-conda-linux-gnu-cc   -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/yinlab/miniforge3/envs/gr1/include    -v -o CMakeFiles/cmTC_292c1.dir/CMakeCCompilerABI.c.o -c /home/yinlab/miniforge3/envs/gr1/share/cmake-3.30/Modules/CMakeCCompilerABI.c
+        Reading specs from /home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/specs
+        could not find specs file conda.specs
+        COLLECT_GCC=/home/yinlab/miniforge3/envs/gr1/bin/x86_64-conda-linux-gnu-cc
+        Target: x86_64-conda-linux-gnu
+        Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176702934/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176702934/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176702934/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176702934/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-languages=c,c++,fortran,objc,obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-lto --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176702934/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176702934/work/cf-compilers/x86_64-conda-linux-gnu/sysroot --with-native-system-header-dir=/usr/include --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176702934/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib/gcc/x86_64-conda-linux-gnu/12.3.0/include/c++ --with-pkgversion='conda-forge gcc 12.3.0-13' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose --enable-libsanitizer --enable-default-pie --enable-threads=posix
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 12.3.0 (conda-forge gcc 12.3.0-13) 
+        COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/yinlab/miniforge3/envs/gr1/include' '-v' '-o' 'CMakeFiles/cmTC_292c1.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_292c1.dir/'
+         /home/yinlab/miniforge3/envs/gr1/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/cc1 -quiet -v -iprefix /home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/ -isysroot /home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot -isystem /home/yinlab/miniforge3/envs/gr1/include /home/yinlab/miniforge3/envs/gr1/share/cmake-3.30/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_292c1.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -march=nocona -mtune=haswell -O2 -version -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -ffunction-sections -o - |
+         /home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_292c1.dir/CMakeCCompilerABI.c.o
+        GNU assembler version 2.40 (x86_64-conda-linux-gnu) using BFD version (GNU Binutils) 2.40
+        GNU C17 (conda-forge gcc 12.3.0-13) version 12.3.0 (x86_64-conda-linux-gnu)
+        	compiled by GNU C version 13.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/include"
+        ignoring duplicate directory "/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include"
+        ignoring nonexistent directory "/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/local/include"
+        ignoring duplicate directory "/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include-fixed"
+        ignoring nonexistent directory "/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/include"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /home/yinlab/miniforge3/envs/gr1/include
+         /home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include
+         /home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include-fixed
+         /home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/include
+        End of search list.
+        GNU C17 (conda-forge gcc 12.3.0-13) version 12.3.0 (x86_64-conda-linux-gnu)
+        	compiled by GNU C version 13.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.24-GMP
+        
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        Compiler executable checksum: 59703a037684949e9171e0bef30c0075
+        COMPILER_PATH=/home/yinlab/miniforge3/envs/gr1/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/:/home/yinlab/miniforge3/envs/gr1/bin/../libexec/gcc/:/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/
+        LIBRARY_PATH=/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/:/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/:/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../lib/:/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/:/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../:/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
+        COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/yinlab/miniforge3/envs/gr1/include' '-v' '-o' 'CMakeFiles/cmTC_292c1.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_292c1.dir/CMakeCCompilerABI.c.'
+        [2/2] : && /home/yinlab/miniforge3/envs/gr1/bin/x86_64-conda-linux-gnu-cc -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/yinlab/miniforge3/envs/gr1/include -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/yinlab/miniforge3/envs/gr1/lib -Wl,-rpath-link,/home/yinlab/miniforge3/envs/gr1/lib -L/home/yinlab/miniforge3/envs/gr1/lib -v -Wl,-v CMakeFiles/cmTC_292c1.dir/CMakeCCompilerABI.c.o -o cmTC_292c1   && :
+        Reading specs from /home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/specs
+        could not find specs file conda.specs
+        COLLECT_GCC=/home/yinlab/miniforge3/envs/gr1/bin/x86_64-conda-linux-gnu-cc
+        COLLECT_LTO_WRAPPER=/home/yinlab/miniforge3/envs/gr1/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/lto-wrapper
+        Target: x86_64-conda-linux-gnu
+        Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176702934/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176702934/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176702934/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176702934/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-languages=c,c++,fortran,objc,obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-lto --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176702934/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176702934/work/cf-compilers/x86_64-conda-linux-gnu/sysroot --with-native-system-header-dir=/usr/include --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176702934/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib/gcc/x86_64-conda-linux-gnu/12.3.0/include/c++ --with-pkgversion='conda-forge gcc 12.3.0-13' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose --enable-libsanitizer --enable-default-pie --enable-threads=posix
+        Thread model: posix
+        Supported LTO compression algorithms: zlib
+        gcc version 12.3.0 (conda-forge gcc 12.3.0-13) 
+        COMPILER_PATH=/home/yinlab/miniforge3/envs/gr1/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/:/home/yinlab/miniforge3/envs/gr1/bin/../libexec/gcc/:/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/
+        LIBRARY_PATH=/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/:/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/:/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../lib/:/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/:/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../:/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/
+        COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/yinlab/miniforge3/envs/gr1/include' '-L/home/yinlab/miniforge3/envs/gr1/lib' '-v' '-o' 'cmTC_292c1' '-dumpdir' 'cmTC_292c1.'
+         /home/yinlab/miniforge3/envs/gr1/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/collect2 -plugin /home/yinlab/miniforge3/envs/gr1/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/liblto_plugin.so -plugin-opt=/home/yinlab/miniforge3/envs/gr1/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc5wDaRV.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_292c1 /home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtbeginS.o -L/home/yinlab/miniforge3/envs/gr1/lib -L/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0 -L/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc -L/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../lib -L/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib -L/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../.. -L/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections --allow-shlib-undefined -rpath /home/yinlab/miniforge3/envs/gr1/lib -rpath-link /home/yinlab/miniforge3/envs/gr1/lib -v CMakeFiles/cmTC_292c1.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtendS.o /home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/yinlab/miniforge3/envs/gr1/lib
+        collect2 version 12.3.0
+        /home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/ld -plugin /home/yinlab/miniforge3/envs/gr1/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/liblto_plugin.so -plugin-opt=/home/yinlab/miniforge3/envs/gr1/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc5wDaRV.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_292c1 /home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtbeginS.o -L/home/yinlab/miniforge3/envs/gr1/lib -L/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0 -L/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc -L/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../lib -L/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib -L/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../.. -L/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections --allow-shlib-undefined -rpath /home/yinlab/miniforge3/envs/gr1/lib -rpath-link /home/yinlab/miniforge3/envs/gr1/lib -v CMakeFiles/cmTC_292c1.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtendS.o /home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/yinlab/miniforge3/envs/gr1/lib
+        GNU ld (GNU Binutils) 2.40
+        COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/yinlab/miniforge3/envs/gr1/include' '-L/home/yinlab/miniforge3/envs/gr1/lib' '-v' '-o' 'cmTC_292c1' '-dumpdir' 'cmTC_292c1.'
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/yinlab/miniforge3/envs/gr1/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:182 (message)"
+      - "/home/yinlab/miniforge3/envs/gr1/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:13 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/home/yinlab/miniforge3/envs/gr1/include]
+          add: [/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include]
+          add: [/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include-fixed]
+          add: [/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/include]
+        end of search list found
+        collapse include dir [/home/yinlab/miniforge3/envs/gr1/include] ==> [/home/yinlab/miniforge3/envs/gr1/include]
+        collapse include dir [/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include] ==> [/home/yinlab/miniforge3/envs/gr1/lib/gcc/x86_64-conda-linux-gnu/12.3.0/include]
+        collapse include dir [/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include-fixed] ==> [/home/yinlab/miniforge3/envs/gr1/lib/gcc/x86_64-conda-linux-gnu/12.3.0/include-fixed]
+        collapse include dir [/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/include] ==> [/home/yinlab/miniforge3/envs/gr1/x86_64-conda-linux-gnu/sysroot/usr/include]
+        implicit include dirs: [/home/yinlab/miniforge3/envs/gr1/include;/home/yinlab/miniforge3/envs/gr1/lib/gcc/x86_64-conda-linux-gnu/12.3.0/include;/home/yinlab/miniforge3/envs/gr1/lib/gcc/x86_64-conda-linux-gnu/12.3.0/include-fixed;/home/yinlab/miniforge3/envs/gr1/x86_64-conda-linux-gnu/sysroot/usr/include]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/yinlab/miniforge3/envs/gr1/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:218 (message)"
+      - "/home/yinlab/miniforge3/envs/gr1/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:13 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(\\.[a-z]+)?|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|")?[ 	]*(([^"]*[/\\])?(ld[0-9]*(\\.[a-z]+)?))("|,| |$)]
+        ignore line: [Change Dir: '/home/yinlab/gr-block/gr-foo/build/CMakeFiles/CMakeScratch/TryCompile-XH5Hfu']
+        ignore line: []
+        ignore line: [Run Build Command(s): /home/yinlab/miniforge3/envs/gr1/bin/ninja -v cmTC_292c1]
+        ignore line: [[1/2] /home/yinlab/miniforge3/envs/gr1/bin/x86_64-conda-linux-gnu-cc   -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/yinlab/miniforge3/envs/gr1/include    -v -o CMakeFiles/cmTC_292c1.dir/CMakeCCompilerABI.c.o -c /home/yinlab/miniforge3/envs/gr1/share/cmake-3.30/Modules/CMakeCCompilerABI.c]
+        ignore line: [Reading specs from /home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/specs]
+        ignore line: [could not find specs file conda.specs]
+        ignore line: [COLLECT_GCC=/home/yinlab/miniforge3/envs/gr1/bin/x86_64-conda-linux-gnu-cc]
+        ignore line: [Target: x86_64-conda-linux-gnu]
+        ignore line: [Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176702934/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176702934/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176702934/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176702934/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-languages=c c++ fortran objc obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-lto --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176702934/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176702934/work/cf-compilers/x86_64-conda-linux-gnu/sysroot --with-native-system-header-dir=/usr/include --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176702934/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib/gcc/x86_64-conda-linux-gnu/12.3.0/include/c++ --with-pkgversion='conda-forge gcc 12.3.0-13' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose --enable-libsanitizer --enable-default-pie --enable-threads=posix]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 12.3.0 (conda-forge gcc 12.3.0-13) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/yinlab/miniforge3/envs/gr1/include' '-v' '-o' 'CMakeFiles/cmTC_292c1.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_292c1.dir/']
+        ignore line: [ /home/yinlab/miniforge3/envs/gr1/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/cc1 -quiet -v -iprefix /home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/ -isysroot /home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot -isystem /home/yinlab/miniforge3/envs/gr1/include /home/yinlab/miniforge3/envs/gr1/share/cmake-3.30/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_292c1.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -march=nocona -mtune=haswell -O2 -version -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -ffunction-sections -o - |]
+        ignore line: [ /home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/as -v --64 -o CMakeFiles/cmTC_292c1.dir/CMakeCCompilerABI.c.o]
+        ignore line: [GNU assembler version 2.40 (x86_64-conda-linux-gnu) using BFD version (GNU Binutils) 2.40]
+        ignore line: [GNU C17 (conda-forge gcc 12.3.0-13) version 12.3.0 (x86_64-conda-linux-gnu)]
+        ignore line: [	compiled by GNU C version 13.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/include"]
+        ignore line: [ignoring duplicate directory "/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include"]
+        ignore line: [ignoring nonexistent directory "/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/local/include"]
+        ignore line: [ignoring duplicate directory "/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/../../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/include"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /home/yinlab/miniforge3/envs/gr1/include]
+        ignore line: [ /home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include]
+        ignore line: [ /home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/include-fixed]
+        ignore line: [ /home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/include]
+        ignore line: [End of search list.]
+        ignore line: [GNU C17 (conda-forge gcc 12.3.0-13) version 12.3.0 (x86_64-conda-linux-gnu)]
+        ignore line: [	compiled by GNU C version 13.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.24-GMP]
+        ignore line: []
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [Compiler executable checksum: 59703a037684949e9171e0bef30c0075]
+        ignore line: [COMPILER_PATH=/home/yinlab/miniforge3/envs/gr1/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/:/home/yinlab/miniforge3/envs/gr1/bin/../libexec/gcc/:/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/]
+        ignore line: [LIBRARY_PATH=/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/:/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/:/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../lib/:/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/:/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../:/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/yinlab/miniforge3/envs/gr1/include' '-v' '-o' 'CMakeFiles/cmTC_292c1.dir/CMakeCCompilerABI.c.o' '-c' '-dumpdir' 'CMakeFiles/cmTC_292c1.dir/CMakeCCompilerABI.c.']
+        ignore line: [[2/2] : && /home/yinlab/miniforge3/envs/gr1/bin/x86_64-conda-linux-gnu-cc -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/yinlab/miniforge3/envs/gr1/include -Wl -O2 -Wl --sort-common -Wl --as-needed -Wl -z relro -Wl -z now -Wl --disable-new-dtags -Wl --gc-sections -Wl --allow-shlib-undefined -Wl -rpath /home/yinlab/miniforge3/envs/gr1/lib -Wl -rpath-link /home/yinlab/miniforge3/envs/gr1/lib -L/home/yinlab/miniforge3/envs/gr1/lib -v -Wl -v CMakeFiles/cmTC_292c1.dir/CMakeCCompilerABI.c.o -o cmTC_292c1   && :]
+        ignore line: [Reading specs from /home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/specs]
+        ignore line: [could not find specs file conda.specs]
+        ignore line: [COLLECT_GCC=/home/yinlab/miniforge3/envs/gr1/bin/x86_64-conda-linux-gnu-cc]
+        ignore line: [COLLECT_LTO_WRAPPER=/home/yinlab/miniforge3/envs/gr1/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/lto-wrapper]
+        ignore line: [Target: x86_64-conda-linux-gnu]
+        ignore line: [Configured with: ../configure --prefix=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176702934/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho --with-slibdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176702934/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --libdir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176702934/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib --mandir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176702934/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/man --build=x86_64-conda-linux-gnu --host=x86_64-conda-linux-gnu --target=x86_64-conda-linux-gnu --enable-languages=c c++ fortran objc obj-c++ --enable-__cxa_atexit --disable-libmudflap --enable-libgomp --disable-libssp --enable-libquadmath --enable-libquadmath-support --enable-lto --enable-target-optspace --enable-plugin --enable-gold --disable-nls --disable-bootstrap --disable-multilib --enable-long-long --with-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176702934/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/x86_64-conda-linux-gnu/sysroot --with-build-sysroot=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176702934/work/cf-compilers/x86_64-conda-linux-gnu/sysroot --with-native-system-header-dir=/usr/include --with-gxx-include-dir=/home/conda/feedstock_root/build_artifacts/gcc_compilers_1719176702934/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeho/lib/gcc/x86_64-conda-linux-gnu/12.3.0/include/c++ --with-pkgversion='conda-forge gcc 12.3.0-13' --with-bugurl=https://github.com/conda-forge/ctng-compilers-feedstock/issues/new/choose --enable-libsanitizer --enable-default-pie --enable-threads=posix]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib]
+        ignore line: [gcc version 12.3.0 (conda-forge gcc 12.3.0-13) ]
+        ignore line: [COMPILER_PATH=/home/yinlab/miniforge3/envs/gr1/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/:/home/yinlab/miniforge3/envs/gr1/bin/../libexec/gcc/:/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/]
+        ignore line: [LIBRARY_PATH=/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/:/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/:/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib/:/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../lib/:/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib/:/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/:/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/:/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../:/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/lib/:/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/]
+        ignore line: [COLLECT_GCC_OPTIONS='-march=nocona' '-mtune=haswell' '-ftree-vectorize' '-fPIC' '-fstack-protector-strong' '-fno-plt' '-O2' '-ffunction-sections' '-pipe' '-isystem' '/home/yinlab/miniforge3/envs/gr1/include' '-L/home/yinlab/miniforge3/envs/gr1/lib' '-v' '-o' 'cmTC_292c1' '-dumpdir' 'cmTC_292c1.']
+        link line: [ /home/yinlab/miniforge3/envs/gr1/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/collect2 -plugin /home/yinlab/miniforge3/envs/gr1/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/liblto_plugin.so -plugin-opt=/home/yinlab/miniforge3/envs/gr1/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc5wDaRV.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_292c1 /home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtbeginS.o -L/home/yinlab/miniforge3/envs/gr1/lib -L/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0 -L/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc -L/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../lib -L/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib -L/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../.. -L/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections --allow-shlib-undefined -rpath /home/yinlab/miniforge3/envs/gr1/lib -rpath-link /home/yinlab/miniforge3/envs/gr1/lib -v CMakeFiles/cmTC_292c1.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtendS.o /home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/yinlab/miniforge3/envs/gr1/lib]
+          arg [/home/yinlab/miniforge3/envs/gr1/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/collect2] ==> ignore
+          arg [-plugin] ==> ignore
+          arg [/home/yinlab/miniforge3/envs/gr1/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/liblto_plugin.so] ==> ignore
+          arg [-plugin-opt=/home/yinlab/miniforge3/envs/gr1/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/lto-wrapper] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cc5wDaRV.res] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [-plugin-opt=-pass-through=-lc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+          arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+          arg [--sysroot=/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot] ==> ignore
+          arg [--eh-frame-hdr] ==> ignore
+          arg [-m] ==> ignore
+          arg [elf_x86_64] ==> ignore
+          arg [-dynamic-linker] ==> ignore
+          arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+          arg [-pie] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_292c1] ==> ignore
+          arg [/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o] ==> obj [/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o]
+          arg [/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o] ==> obj [/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o]
+          arg [/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtbeginS.o] ==> obj [/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtbeginS.o]
+          arg [-L/home/yinlab/miniforge3/envs/gr1/lib] ==> dir [/home/yinlab/miniforge3/envs/gr1/lib]
+          arg [-L/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0] ==> dir [/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0]
+          arg [-L/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc] ==> dir [/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc]
+          arg [-L/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib] ==> dir [/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib]
+          arg [-L/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../lib] ==> dir [/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../lib]
+          arg [-L/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib] ==> dir [/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib]
+          arg [-L/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib] ==> dir [/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib]
+          arg [-L/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib] ==> dir [/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib]
+          arg [-L/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../..] ==> dir [/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../..]
+          arg [-L/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/lib] ==> dir [/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/lib]
+          arg [-L/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib] ==> dir [/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib]
+          arg [-O2] ==> ignore
+          arg [--sort-common] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-zrelro] ==> ignore
+          arg [-znow] ==> ignore
+          arg [--disable-new-dtags] ==> ignore
+          arg [--gc-sections] ==> ignore
+          arg [--allow-shlib-undefined] ==> ignore
+          arg [-rpath] ==> ignore
+          arg [/home/yinlab/miniforge3/envs/gr1/lib] ==> ignore
+          arg [-rpath-link] ==> ignore
+          arg [/home/yinlab/miniforge3/envs/gr1/lib] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_292c1.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [-lc] ==> lib [c]
+          arg [-lgcc] ==> lib [gcc]
+          arg [--push-state] ==> ignore
+          arg [--as-needed] ==> ignore
+          arg [-lgcc_s] ==> lib [gcc_s]
+          arg [--pop-state] ==> ignore
+          arg [/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtendS.o] ==> obj [/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtendS.o]
+          arg [/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o] ==> obj [/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o]
+          arg [-rpath] ==> ignore
+          arg [/home/yinlab/miniforge3/envs/gr1/lib] ==> ignore
+        ignore line: [collect2 version 12.3.0]
+        ignore line: [/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/ld -plugin /home/yinlab/miniforge3/envs/gr1/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/liblto_plugin.so -plugin-opt=/home/yinlab/miniforge3/envs/gr1/bin/../libexec/gcc/x86_64-conda-linux-gnu/12.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/cc5wDaRV.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot --eh-frame-hdr -m elf_x86_64 -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_292c1 /home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o /home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o /home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtbeginS.o -L/home/yinlab/miniforge3/envs/gr1/lib -L/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0 -L/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc -L/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib -L/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../lib -L/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib -L/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib -L/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib -L/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../.. -L/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/lib -L/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib -O2 --sort-common --as-needed -z relro -z now --disable-new-dtags --gc-sections --allow-shlib-undefined -rpath /home/yinlab/miniforge3/envs/gr1/lib -rpath-link /home/yinlab/miniforge3/envs/gr1/lib -v CMakeFiles/cmTC_292c1.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtendS.o /home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o -rpath /home/yinlab/miniforge3/envs/gr1/lib]
+        linker tool for 'C': /home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/ld
+        collapse obj [/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/Scrt1.o] ==> [/home/yinlab/miniforge3/envs/gr1/x86_64-conda-linux-gnu/sysroot/usr/lib/Scrt1.o]
+        collapse obj [/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crti.o] ==> [/home/yinlab/miniforge3/envs/gr1/x86_64-conda-linux-gnu/sysroot/usr/lib/crti.o]
+        collapse obj [/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtbeginS.o] ==> [/home/yinlab/miniforge3/envs/gr1/lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtbeginS.o]
+        collapse obj [/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtendS.o] ==> [/home/yinlab/miniforge3/envs/gr1/lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtendS.o]
+        collapse obj [/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib/crtn.o] ==> [/home/yinlab/miniforge3/envs/gr1/x86_64-conda-linux-gnu/sysroot/usr/lib/crtn.o]
+        collapse library dir [/home/yinlab/miniforge3/envs/gr1/lib] ==> [/home/yinlab/miniforge3/envs/gr1/lib]
+        collapse library dir [/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0] ==> [/home/yinlab/miniforge3/envs/gr1/lib/gcc/x86_64-conda-linux-gnu/12.3.0]
+        collapse library dir [/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc] ==> [/home/yinlab/miniforge3/envs/gr1/lib/gcc]
+        collapse library dir [/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib/../lib] ==> [/home/yinlab/miniforge3/envs/gr1/x86_64-conda-linux-gnu/lib]
+        collapse library dir [/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../lib] ==> [/home/yinlab/miniforge3/envs/gr1/lib]
+        collapse library dir [/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/lib/../lib] ==> [/home/yinlab/miniforge3/envs/gr1/x86_64-conda-linux-gnu/sysroot/lib]
+        collapse library dir [/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib/../lib] ==> [/home/yinlab/miniforge3/envs/gr1/x86_64-conda-linux-gnu/sysroot/usr/lib]
+        collapse library dir [/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/lib] ==> [/home/yinlab/miniforge3/envs/gr1/x86_64-conda-linux-gnu/lib]
+        collapse library dir [/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../..] ==> [/home/yinlab/miniforge3/envs/gr1/lib]
+        collapse library dir [/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/lib] ==> [/home/yinlab/miniforge3/envs/gr1/x86_64-conda-linux-gnu/sysroot/lib]
+        collapse library dir [/home/yinlab/miniforge3/envs/gr1/bin/../x86_64-conda-linux-gnu/sysroot/usr/lib] ==> [/home/yinlab/miniforge3/envs/gr1/x86_64-conda-linux-gnu/sysroot/usr/lib]
+        implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+        implicit objs: [/home/yinlab/miniforge3/envs/gr1/x86_64-conda-linux-gnu/sysroot/usr/lib/Scrt1.o;/home/yinlab/miniforge3/envs/gr1/x86_64-conda-linux-gnu/sysroot/usr/lib/crti.o;/home/yinlab/miniforge3/envs/gr1/lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtbeginS.o;/home/yinlab/miniforge3/envs/gr1/lib/gcc/x86_64-conda-linux-gnu/12.3.0/crtendS.o;/home/yinlab/miniforge3/envs/gr1/x86_64-conda-linux-gnu/sysroot/usr/lib/crtn.o]
+        implicit dirs: [/home/yinlab/miniforge3/envs/gr1/lib;/home/yinlab/miniforge3/envs/gr1/lib/gcc/x86_64-conda-linux-gnu/12.3.0;/home/yinlab/miniforge3/envs/gr1/lib/gcc;/home/yinlab/miniforge3/envs/gr1/x86_64-conda-linux-gnu/lib;/home/yinlab/miniforge3/envs/gr1/x86_64-conda-linux-gnu/sysroot/lib;/home/yinlab/miniforge3/envs/gr1/x86_64-conda-linux-gnu/sysroot/usr/lib]
+        implicit fwks: []
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/home/yinlab/miniforge3/envs/gr1/share/cmake-3.30/Modules/Internal/CMakeDetermineLinkerId.cmake:40 (message)"
+      - "/home/yinlab/miniforge3/envs/gr1/share/cmake-3.30/Modules/CMakeDetermineCompilerABI.cmake:255 (cmake_determine_linker_id)"
+      - "/home/yinlab/miniforge3/envs/gr1/share/cmake-3.30/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:13 (project)"
+    message: |
+      Running the C compiler's linker: "/home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/ld" "-v"
+      GNU ld (GNU Binutils) 2.40
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/yinlab/miniforge3/envs/gr1/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/home/yinlab/miniforge3/envs/gr1/share/cmake-3.30/Modules/CheckCSourceCompiles.cmake:52 (cmake_check_source_compiles)"
+      - "/home/yinlab/miniforge3/envs/gr1/share/cmake-3.30/Modules/FindThreads.cmake:97 (CHECK_C_SOURCE_COMPILES)"
+      - "/home/yinlab/miniforge3/envs/gr1/share/cmake-3.30/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "/home/yinlab/miniforge3/envs/gr1/lib/cmake/spdlog/spdlogConfig.cmake:30 (find_package)"
+      - "/home/yinlab/miniforge3/envs/gr1/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/home/yinlab/miniforge3/envs/gr1/lib/cmake/gnuradio/GnuradioConfig.cmake:13 (find_dependency)"
+      - "CMakeLists.txt:88 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/home/yinlab/gr-block/gr-foo/build/CMakeFiles/CMakeScratch/TryCompile-WiNkJu"
+      binary: "/home/yinlab/gr-block/gr-foo/build/CMakeFiles/CMakeScratch/TryCompile-WiNkJu"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/yinlab/miniforge3/envs/gr1/include"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/yinlab/miniforge3/envs/gr1/lib -Wl,-rpath-link,/home/yinlab/miniforge3/envs/gr1/lib -L/home/yinlab/miniforge3/envs/gr1/lib"
+      CMAKE_MODULE_PATH: "/home/yinlab/miniforge3/envs/gr1/lib/cmake/gnuradio;/home/yinlab/miniforge3/envs/gr1/lib/cmake/uhd;/home/yinlab/gr-block/gr-foo/cmake/Modules"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/home/yinlab/gr-block/gr-foo/build/CMakeFiles/CMakeScratch/TryCompile-WiNkJu'
+        
+        Run Build Command(s): /home/yinlab/miniforge3/envs/gr1/bin/ninja -v cmTC_904bc
+        [1/2] /home/yinlab/miniforge3/envs/gr1/bin/x86_64-conda-linux-gnu-cc -DCMAKE_HAVE_LIBC_PTHREAD  -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/yinlab/miniforge3/envs/gr1/include  -std=gnu11 -o CMakeFiles/cmTC_904bc.dir/src.c.o -c /home/yinlab/gr-block/gr-foo/build/CMakeFiles/CMakeScratch/TryCompile-WiNkJu/src.c
+        [2/2] : && /home/yinlab/miniforge3/envs/gr1/bin/x86_64-conda-linux-gnu-cc -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/yinlab/miniforge3/envs/gr1/include -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/yinlab/miniforge3/envs/gr1/lib -Wl,-rpath-link,/home/yinlab/miniforge3/envs/gr1/lib -L/home/yinlab/miniforge3/envs/gr1/lib CMakeFiles/cmTC_904bc.dir/src.c.o -o cmTC_904bc   && :
+        FAILED: cmTC_904bc 
+        : && /home/yinlab/miniforge3/envs/gr1/bin/x86_64-conda-linux-gnu-cc -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/yinlab/miniforge3/envs/gr1/include -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/yinlab/miniforge3/envs/gr1/lib -Wl,-rpath-link,/home/yinlab/miniforge3/envs/gr1/lib -L/home/yinlab/miniforge3/envs/gr1/lib CMakeFiles/cmTC_904bc.dir/src.c.o -o cmTC_904bc   && :
+        /home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/ld: CMakeFiles/cmTC_904bc.dir/src.c.o: in function `main':
+        src.c:(.text.startup.main+0x24): undefined reference to `pthread_create'
+        /home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/ld: src.c:(.text.startup.main+0x2e): undefined reference to `pthread_detach'
+        /home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/ld: src.c:(.text.startup.main+0x38): undefined reference to `pthread_cancel'
+        /home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/ld: src.c:(.text.startup.main+0x44): undefined reference to `pthread_join'
+        /home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/ld: src.c:(.text.startup.main+0x50): undefined reference to `pthread_atfork'
+        collect2: error: ld returned 1 exit status
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/yinlab/miniforge3/envs/gr1/share/cmake-3.30/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "/home/yinlab/miniforge3/envs/gr1/share/cmake-3.30/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "/home/yinlab/miniforge3/envs/gr1/share/cmake-3.30/Modules/FindThreads.cmake:175 (_threads_check_lib)"
+      - "/home/yinlab/miniforge3/envs/gr1/lib/cmake/spdlog/spdlogConfig.cmake:30 (find_package)"
+      - "/home/yinlab/miniforge3/envs/gr1/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/home/yinlab/miniforge3/envs/gr1/lib/cmake/gnuradio/GnuradioConfig.cmake:13 (find_dependency)"
+      - "CMakeLists.txt:88 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthreads"
+    directories:
+      source: "/home/yinlab/gr-block/gr-foo/build/CMakeFiles/CMakeScratch/TryCompile-GdhoRC"
+      binary: "/home/yinlab/gr-block/gr-foo/build/CMakeFiles/CMakeScratch/TryCompile-GdhoRC"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/yinlab/miniforge3/envs/gr1/include"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/yinlab/miniforge3/envs/gr1/lib -Wl,-rpath-link,/home/yinlab/miniforge3/envs/gr1/lib -L/home/yinlab/miniforge3/envs/gr1/lib"
+      CMAKE_MODULE_PATH: "/home/yinlab/miniforge3/envs/gr1/lib/cmake/gnuradio;/home/yinlab/miniforge3/envs/gr1/lib/cmake/uhd;/home/yinlab/gr-block/gr-foo/cmake/Modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREADS_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/yinlab/gr-block/gr-foo/build/CMakeFiles/CMakeScratch/TryCompile-GdhoRC'
+        
+        Run Build Command(s): /home/yinlab/miniforge3/envs/gr1/bin/ninja -v cmTC_3979b
+        [1/2] /home/yinlab/miniforge3/envs/gr1/bin/x86_64-conda-linux-gnu-cc   -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/yinlab/miniforge3/envs/gr1/include -DCHECK_FUNCTION_EXISTS=pthread_create -std=gnu11 -o CMakeFiles/cmTC_3979b.dir/CheckFunctionExists.c.o -c /home/yinlab/gr-block/gr-foo/build/CMakeFiles/CMakeScratch/TryCompile-GdhoRC/CheckFunctionExists.c
+        [2/2] : && /home/yinlab/miniforge3/envs/gr1/bin/x86_64-conda-linux-gnu-cc -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/yinlab/miniforge3/envs/gr1/include -DCHECK_FUNCTION_EXISTS=pthread_create -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/yinlab/miniforge3/envs/gr1/lib -Wl,-rpath-link,/home/yinlab/miniforge3/envs/gr1/lib -L/home/yinlab/miniforge3/envs/gr1/lib CMakeFiles/cmTC_3979b.dir/CheckFunctionExists.c.o -o cmTC_3979b  -lpthreads && :
+        FAILED: cmTC_3979b 
+        : && /home/yinlab/miniforge3/envs/gr1/bin/x86_64-conda-linux-gnu-cc -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/yinlab/miniforge3/envs/gr1/include -DCHECK_FUNCTION_EXISTS=pthread_create -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/yinlab/miniforge3/envs/gr1/lib -Wl,-rpath-link,/home/yinlab/miniforge3/envs/gr1/lib -L/home/yinlab/miniforge3/envs/gr1/lib CMakeFiles/cmTC_3979b.dir/CheckFunctionExists.c.o -o cmTC_3979b  -lpthreads && :
+        /home/yinlab/miniforge3/envs/gr1/bin/../lib/gcc/x86_64-conda-linux-gnu/12.3.0/../../../../x86_64-conda-linux-gnu/bin/ld: cannot find -lpthreads: 没有那个文件或目录
+        collect2: error: ld returned 1 exit status
+        ninja: build stopped: subcommand failed.
+        
+      exitCode: 1
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/yinlab/miniforge3/envs/gr1/share/cmake-3.30/Modules/CheckLibraryExists.cmake:69 (try_compile)"
+      - "/home/yinlab/miniforge3/envs/gr1/share/cmake-3.30/Modules/FindThreads.cmake:112 (CHECK_LIBRARY_EXISTS)"
+      - "/home/yinlab/miniforge3/envs/gr1/share/cmake-3.30/Modules/FindThreads.cmake:176 (_threads_check_lib)"
+      - "/home/yinlab/miniforge3/envs/gr1/lib/cmake/spdlog/spdlogConfig.cmake:30 (find_package)"
+      - "/home/yinlab/miniforge3/envs/gr1/share/cmake-3.30/Modules/CMakeFindDependencyMacro.cmake:76 (find_package)"
+      - "/home/yinlab/miniforge3/envs/gr1/lib/cmake/gnuradio/GnuradioConfig.cmake:13 (find_dependency)"
+      - "CMakeLists.txt:88 (find_package)"
+    checks:
+      - "Looking for pthread_create in pthread"
+    directories:
+      source: "/home/yinlab/gr-block/gr-foo/build/CMakeFiles/CMakeScratch/TryCompile-vwa64a"
+      binary: "/home/yinlab/gr-block/gr-foo/build/CMakeFiles/CMakeScratch/TryCompile-vwa64a"
+    cmakeVariables:
+      CMAKE_C_FLAGS: "-march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/yinlab/miniforge3/envs/gr1/include"
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/yinlab/miniforge3/envs/gr1/lib -Wl,-rpath-link,/home/yinlab/miniforge3/envs/gr1/lib -L/home/yinlab/miniforge3/envs/gr1/lib"
+      CMAKE_MODULE_PATH: "/home/yinlab/miniforge3/envs/gr1/lib/cmake/gnuradio;/home/yinlab/miniforge3/envs/gr1/lib/cmake/uhd;/home/yinlab/gr-block/gr-foo/cmake/Modules"
+    buildResult:
+      variable: "CMAKE_HAVE_PTHREAD_CREATE"
+      cached: true
+      stdout: |
+        Change Dir: '/home/yinlab/gr-block/gr-foo/build/CMakeFiles/CMakeScratch/TryCompile-vwa64a'
+        
+        Run Build Command(s): /home/yinlab/miniforge3/envs/gr1/bin/ninja -v cmTC_03c49
+        [1/2] /home/yinlab/miniforge3/envs/gr1/bin/x86_64-conda-linux-gnu-cc   -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/yinlab/miniforge3/envs/gr1/include -DCHECK_FUNCTION_EXISTS=pthread_create -std=gnu11 -o CMakeFiles/cmTC_03c49.dir/CheckFunctionExists.c.o -c /home/yinlab/gr-block/gr-foo/build/CMakeFiles/CMakeScratch/TryCompile-vwa64a/CheckFunctionExists.c
+        [2/2] : && /home/yinlab/miniforge3/envs/gr1/bin/x86_64-conda-linux-gnu-cc -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/yinlab/miniforge3/envs/gr1/include -DCHECK_FUNCTION_EXISTS=pthread_create -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/yinlab/miniforge3/envs/gr1/lib -Wl,-rpath-link,/home/yinlab/miniforge3/envs/gr1/lib -L/home/yinlab/miniforge3/envs/gr1/lib CMakeFiles/cmTC_03c49.dir/CheckFunctionExists.c.o -o cmTC_03c49  -lpthread && :
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/home/yinlab/miniforge3/envs/gr1/share/cmake-3.30/Modules/Internal/CheckSourceCompiles.cmake:101 (try_compile)"
+      - "/home/yinlab/miniforge3/envs/gr1/share/cmake-3.30/Modules/Internal/CheckCompilerFlag.cmake:18 (cmake_check_source_compiles)"
+      - "/home/yinlab/miniforge3/envs/gr1/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake:34 (cmake_check_compiler_flag)"
+      - "/home/yinlab/miniforge3/envs/gr1/share/cmake/pybind11/pybind11Common.cmake:297 (check_cxx_compiler_flag)"
+      - "/home/yinlab/miniforge3/envs/gr1/share/cmake/pybind11/pybind11Common.cmake:342 (_pybind11_return_if_cxx_and_linker_flags_work)"
+      - "/home/yinlab/miniforge3/envs/gr1/share/cmake/pybind11/pybind11Common.cmake:409 (_pybind11_generate_lto)"
+      - "/home/yinlab/miniforge3/envs/gr1/share/cmake/pybind11/pybind11Config.cmake:250 (include)"
+      - "/home/yinlab/miniforge3/envs/gr1/lib/cmake/gnuradio/GrPybind.cmake:3 (find_package)"
+      - "python/bindings/CMakeLists.txt:25 (include)"
+    checks:
+      - "Performing Test HAS_FLTO"
+    directories:
+      source: "/home/yinlab/gr-block/gr-foo/build/CMakeFiles/CMakeScratch/TryCompile-TN3KgF"
+      binary: "/home/yinlab/gr-block/gr-foo/build/CMakeFiles/CMakeScratch/TryCompile-TN3KgF"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: "-fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/yinlab/miniforge3/envs/gr1/include"
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: "-Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/yinlab/miniforge3/envs/gr1/lib -Wl,-rpath-link,/home/yinlab/miniforge3/envs/gr1/lib -L/home/yinlab/miniforge3/envs/gr1/lib"
+      CMAKE_MODULE_PATH: "/home/yinlab/miniforge3/envs/gr1/lib/cmake/gnuradio;/home/yinlab/miniforge3/envs/gr1/lib/cmake/uhd;/home/yinlab/gr-block/gr-foo/cmake/Modules"
+    buildResult:
+      variable: "HAS_FLTO"
+      cached: true
+      stdout: |
+        Change Dir: '/home/yinlab/gr-block/gr-foo/build/CMakeFiles/CMakeScratch/TryCompile-TN3KgF'
+        
+        Run Build Command(s): /home/yinlab/miniforge3/envs/gr1/bin/ninja -v cmTC_e2616
+        [1/2] /home/yinlab/miniforge3/envs/gr1/bin/x86_64-conda-linux-gnu-c++ -DHAS_FLTO  -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/yinlab/miniforge3/envs/gr1/include  -std=gnu++14   -flto -fno-fat-lto-objects -o CMakeFiles/cmTC_e2616.dir/src.cxx.o -c /home/yinlab/gr-block/gr-foo/build/CMakeFiles/CMakeScratch/TryCompile-TN3KgF/src.cxx
+        [2/2] : && /home/yinlab/miniforge3/envs/gr1/bin/x86_64-conda-linux-gnu-c++ -fvisibility-inlines-hidden -fmessage-length=0 -march=nocona -mtune=haswell -ftree-vectorize -fPIC -fstack-protector-strong -fno-plt -O2 -ffunction-sections -pipe -isystem /home/yinlab/miniforge3/envs/gr1/include -Wl,-O2 -Wl,--sort-common -Wl,--as-needed -Wl,-z,relro -Wl,-z,now -Wl,--disable-new-dtags -Wl,--gc-sections -Wl,--allow-shlib-undefined -Wl,-rpath,/home/yinlab/miniforge3/envs/gr1/lib -Wl,-rpath-link,/home/yinlab/miniforge3/envs/gr1/lib -L/home/yinlab/miniforge3/envs/gr1/lib CMakeFiles/cmTC_e2616.dir/src.cxx.o -o cmTC_e2616  -flto && :
+        
+      exitCode: 0
+...
